@@ -2,23 +2,25 @@
 
 > Um jogo arcade 2D de plataforma vertical em que Shopi, um entregador carregando uma encomenda, precisa fazer seu trabalho enquanto enfrenta clientes absurdamente problemáticos.
 
+🇧🇷 **Português** · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)
+
 [![Jogar](https://img.shields.io/badge/🎮-Jogar%20agora-orange)](https://shopi-climb-dash.base44.app/)
 [![Status](https://img.shields.io/badge/status-protótipo%20jogável-brightgreen)](#status-atual)
-[![Plataforma](https://img.shields.io/badge/desenvolvimento-Base44-blue)](#desenvolvimento)
+[![Desenvolvido com](https://img.shields.io/badge/desenvolvido%20com-Base44-blue)](#desenvolvimento)
 
 ## 🎮 Jogue agora
 
-**https://shopi-climb-dash.base44.app/**
+[**Abrir Shopi Climb Dash**](https://shopi-climb-dash.base44.app/)
 
-O protótipo pode ser acessado diretamente pelo navegador, em desktop ou celular.
+O protótipo atual funciona diretamente no navegador, em computadores e dispositivos móveis.
 
 ## 🧾 Sobre o projeto
 
-**Shopi — Entregas Impossíveis** é um projeto independente de jogo 2D desenvolvido incrementalmente com o Base44 e documentado no GitHub.
+**Shopi — Entregas Impossíveis** é um projeto independente de jogo 2D desenvolvido de forma incremental com Base44 e documentado no GitHub.
 
-A ideia combina plataforma vertical, escadas, obstáculos, pontuação e humor situacional.
+A proposta combina plataforma vertical, escadas, obstáculos, pontuação e comédia situacional.
 
-O diferencial é o sistema de **clientes problemáticos**: em vez de enfrentar vilões tradicionais, Shopi precisa simplesmente conseguir realizar seu trabalho.
+O diferencial está nos **clientes problemáticos**: em vez de enfrentar vilões tradicionais, Shopi precisa simplesmente conseguir realizar seu trabalho enquanto cada cliente transforma uma entrega comum em uma situação absurda.
 
 > **Shopi não quer salvar o mundo. Ele só quer terminar a entrega.**
 
@@ -26,27 +28,27 @@ O diferencial é o sistema de **clientes problemáticos**: em vez de enfrentar v
 
 ### 📦 Shopi
 
-Entregador protagonista. É carismático, determinado e ligeiramente atrapalhado. Durante as fases, carrega a caixa da entrega.
+É o protagonista e entregador. Carismático, determinado e ligeiramente atrapalhado, Shopi carrega durante as fases a caixa que precisa entregar.
 
 ### 🚚 Etvaldo
 
-Ajudante de Shopi no caminhão de entregas. É um personagem recorrente e parte importante da narrativa.
+É o ajudante de Shopi no caminhão de entregas. Personagem recorrente, Etvaldo participa da narrativa e frequentemente acaba envolvido em situações absurdas.
 
 ### 😡 Tabacudo
 
-Primeiro cliente problemático. Reclama de tudo e dificulta a chegada de Shopi ao topo do prédio.
+É o primeiro cliente problemático. Reclama de tudo e dificulta a chegada de Shopi ao topo do prédio.
 
 ## 🏢 Primeira fase
 
 ### Fase 1 — O Prédio
 
-Shopi precisa subir pelo prédio, desviando dos objetos lançados por Tabacudo, encontrar Etvaldo e tentar concluir a entrega.
+Shopi precisa subir pelo prédio, desviar dos objetos lançados por Tabacudo, encontrar Etvaldo e tentar concluir a entrega.
 
 A fase utiliza:
 
 - plataformas;
 - escadas;
-- obstáculos com comportamentos variados;
+- obstáculos com diferentes comportamentos;
 - vidas;
 - checkpoint;
 - pontuação;
@@ -63,17 +65,17 @@ A fase utiliza:
 
 ### Celular
 
-A versão atual possui **controles por toque**.
+A versão atual possui **controles por toque**, mantendo a experiência compatível com a versão desktop.
 
 ## 🏆 Ranking
 
-O jogo já possui um **ranking de líderes**, permitindo comparar o desempenho dos jogadores.
+O jogo possui um **ranking de líderes** para comparar o desempenho dos jogadores.
 
-O ranking deverá evoluir posteriormente para diferentes fases e recordes.
+Futuramente, o sistema poderá evoluir para rankings por fase, recordes pessoais e estatísticas adicionais.
 
 ## 👥 Contador de visitantes
 
-**Próxima melhoria planejada:** adicionar um contador global de visitantes, persistente entre sessões e independente do dispositivo do jogador.
+A próxima versão planejada inclui um **contador global de visitantes**, persistente entre sessões e dispositivos e separado do ranking de jogadores.
 
 ## 🗺️ Campanha planejada
 
@@ -86,58 +88,69 @@ O ranking deverá evoluir posteriormente para diferentes fases e recordes.
 | 5 | Shopping | Ubiratânio | Pediu algo absurdo |
 | 6 | Centro de distribuição | Edivaldir | Quer trocar a encomenda |
 
-A campanha será expandida gradualmente. Cada fase deve apresentar um local, cliente e problema próprios.
+Cada fase deverá apresentar um novo local, um cliente com personalidade própria e uma situação de entrega que se transforma em desafio de gameplay.
 
 ## 🎯 Identidade do jogo
 
-O projeto busca uma identidade própria por meio de:
+A identidade de Shopi é construída a partir de:
 
 - personagens inusitados;
-- nomes absurdos ou inesperados;
-- humor de situações cotidianas;
-- clientes como "bosses";
-- problemas de entrega transformados em desafios de gameplay;
+- nomes inesperados;
+- humor baseado em situações cotidianas;
+- clientes como bosses;
+- problemas de entrega transformados em desafios;
 - Shopi e Etvaldo como dupla recorrente.
 
-O projeto pode utilizar a linguagem dos arcades clássicos como referência de gênero, mas não deve copiar personagens, sprites, músicas, layouts ou outros elementos de obras existentes.
+Jogos arcade clássicos são apenas uma referência de gênero. O projeto deve manter personagens, arte, design de fases, narrativa e identidade audiovisual próprios.
 
 ## 🛠️ Desenvolvimento
 
 O **Base44** é utilizado como principal ferramenta de prototipagem e evolução do jogo.
 
-Ciclo atual:
+O processo atual é:
 
 **Ideia → Prompt → Base44 → Teste → Ajuste → Registro no GitHub**
 
-As alterações devem ser pequenas o suficiente para permitir teste e validação antes da próxima mudança.
+As mudanças devem ser incrementais, permitindo testar e validar cada alteração antes de introduzir a próxima.
+
+Cada mudança relevante deve ser registrada no histórico de versões e, quando aplicável, com seu prompt correspondente na pasta de prompts.
 
 ## 📁 Documentação
 
+### Conceito e design
 - [Conceito](docs/01_conceito.md)
 - [Personagens](docs/02_personagens.md)
 - [Fases e campanha](docs/03_fases.md)
 - [Gameplay](docs/04_gameplay.md)
 - [Clientes / Bosses](docs/05_clientes_bosses.md)
+
+### Sistemas
 - [Ranking](docs/06_ranking.md)
 - [Métricas](docs/07_metricas.md)
 - [Base44 e processo de desenvolvimento](docs/08_base44.md)
 - [Roadmap](docs/09_roadmap.md)
-- [Histórico de mudanças](CHANGELOG.md)
+
+### Histórico de desenvolvimento
+- [Changelog](CHANGELOG.md)
+- [Prompt 01 — MVP inicial](prompts/01_mvp.md)
+- [Prompt 02 — Controles por toque](prompts/02_controles_touch.md)
+- [Prompt 03 — Ranking](prompts/03_ranking.md)
+- [Prompt 04 — Contador de visitantes](prompts/04_contador_visitantes.md)
 
 ## 📊 Status atual
 
-**Versão:** 0.1.0 — protótipo jogável.
+**Versão:** 0.1.2 — protótipo jogável.
 
-**Recursos registrados:** primeira fase, Shopi, Etvaldo, Tabacudo, controles desktop, controles por toque e ranking de líderes.
+**Implementado:** primeira fase, Shopi, Etvaldo, Tabacudo, controles desktop, controles por toque e ranking de líderes.
 
-**Próximo passo:** contador global de visitantes e revisão de qualidade da primeira fase.
+**Próximo passo:** implementar o contador global de visitantes e iniciar a revisão de qualidade da primeira fase.
 
 ## 👨‍💻 Autor
 
 **Filipe G Morais**
 
-Projeto independente de experimentação em criação de jogos, tecnologia, design e desenvolvimento incremental com IA/no-code.
+Projeto independente de experimentação em criação de jogos, tecnologia, design visual e desenvolvimento incremental com IA/no-code.
 
 ---
 
-> Projeto em evolução. A documentação acompanha as decisões de design, o roadmap e as principais mudanças realizadas durante o desenvolvimento.
+> Projeto em evolução. O GitHub registra as decisões de design, os prompts utilizados, as versões e o roadmap do desenvolvimento.
