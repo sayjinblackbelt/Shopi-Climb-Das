@@ -2,16 +2,18 @@
 
 ## Estrutura da campanha
 
-A campanha acompanha Shopi e Etvaldo em diferentes tipos de entrega. Cada fase muda o ambiente e apresenta um cliente problemático com uma mecânica própria.
+A campanha acompanha Shopi e Etvaldo em diferentes tipos de entrega. Cada fase muda o ambiente e apresenta um cliente problemático com uma situação própria.
+
+**Status atual:** as 6 fases estão jogáveis e foram testadas pelo autor até a conclusão da campanha.
 
 | Fase | Local | Cliente | Problema principal | Status |
 |---|---|---|---|---|
-| 1 | Prédio | Tabacudo | Reclama de tudo | 🟢 Jogável |
-| 2 | Casa | Cleovasdo | Quer devolver a encomenda | 🟢 Jogável |
-| 3 | Condomínio | Osvaldêncio | Bloqueia caminhos | 🔵 Planejada |
-| 4 | Centro comercial | Jocelvânio | Nunca está no endereço | 🔵 Planejada |
-| 5 | Shopping | Ubiratânio | Pediu algo absurdo | 🔵 Planejada |
-| 6 | Centro de distribuição | Edivaldir | Quer trocar a encomenda | 🔵 Planejada |
+| 1 | Prédio | Tabacudo | Reclama de tudo | 🟢 Jogável e testada |
+| 2 | Casa | Cleovasdo | Quer devolver a encomenda | 🟢 Jogável e testada |
+| 3 | Condomínio | Osvaldêncio | Bloqueia caminhos | 🟢 Jogável e testada |
+| 4 | Centro comercial | Jocelvânio | Nunca está no endereço | 🟢 Jogável e testada |
+| 5 | Shopping | Ubiratânio | Pediu algo absurdo | 🟢 Jogável e testada |
+| 6 | Centro de distribuição | Edivaldir | Quer trocar a encomenda | 🟢 Jogável e testada |
 
 ## Fase 1 — O Prédio
 
@@ -36,8 +38,6 @@ Tabacudo permanece na parte superior e cria obstáculos para Shopi.
 
 ### Dificuldade
 
-A fase possui três níveis:
-
 - **Entrega Tranquila:** sem objetos caindo de cima;
 - **Entrega Complicada:** objetos lançados em quantidade e velocidade moderadas;
 - **Entrega Impossível:** maior frequência, velocidade e imprevisibilidade.
@@ -46,11 +46,11 @@ Essa diferenciação foi incorporada após feedback de jogadores, que considerar
 
 ## Fase 2 — A Casa
 
-**Status:** jogável.
+**Status:** jogável e testada.
 
 **Cliente:** Cleovasdo.
 
-Shopi chega para fazer uma entrega, mas Cleovasdo decide devolvê-la e foge pela casa. A fase introduz uma mecânica diferente da primeira: **perseguição do cliente**.
+Cleovasdo quer devolver a encomenda e foge pela casa. Shopi precisa persegui-lo e alcançá-lo.
 
 ### Áreas
 
@@ -68,61 +68,62 @@ A ambientação utiliza objetos domésticos, como bolas, brinquedos, vasos, caix
 
 Quando Shopi alcança Cleovasdo, a entrega é realizada, mas o cliente revela que quer devolver a encomenda. Etvaldo participa da gag final.
 
-### Dificuldade
-
-A Fase 2 utiliza o sistema global de dificuldade:
-
-- **Entrega Tranquila:** perseguição mais simples, Cleovasdo mais lento e menos obstáculos;
-- **Entrega Complicada:** maior velocidade e quantidade moderada de obstáculos;
-- **Entrega Impossível:** Cleovasdo mais rápido e obstáculos mais dinâmicos.
-
 ## Fase 3 — O Condomínio
+
+**Status:** jogável e testada.
 
 **Cliente:** Osvaldêncio.
 
-A fase deve explorar múltiplos blocos, portões, áreas comuns e restrições de circulação.
+A fase utiliza múltiplos caminhos, bloqueios e áreas do condomínio para transformar a circulação no principal desafio da entrega.
 
 **Mecânica principal:** rotas alternativas e bloqueios.
 
-## Fase 4 — Centro Comercial
+## Fase 4 — O Centro Comercial
+
+**Status:** jogável e testada.
 
 **Cliente:** Jocelvânio.
 
-Shopi chega ao endereço, mas o cliente muda constantemente de localização.
+Shopi chega ao endereço, mas o cliente nunca está exatamente onde deveria estar.
 
-**Mecânica principal:** perseguição e localização do cliente.
+**Mecânica principal:** localização e perseguição do cliente.
 
-## Fase 5 — Shopping
+## Fase 5 — O Shopping
+
+**Status:** jogável e testada.
 
 **Cliente:** Ubiratânio.
 
-O pedido ou a exigência do cliente gera uma situação absurda.
+O pedido do cliente cria uma situação de entrega absurda que serve como desafio da fase.
 
-**Mecânica principal:** puzzle / manipulação de objetos.
+**Mecânica principal:** interação e resolução da situação de entrega.
 
-## Fase 6 — Centro de Distribuição
+## Fase 6 — O Centro de Distribuição
+
+**Status:** jogável e testada.
 
 **Cliente:** Edivaldir.
 
 A entrega chega ao destino, mas o cliente imediatamente quer trocar o produto.
 
-**Mecânica principal:** movimentação entre máquinas, esteiras e áreas de logística.
+**Mecânica principal:** movimentação em ambiente de distribuição e resolução da troca.
 
-## Itens colecionáveis — próxima mecânica
+## Itens colecionáveis — planejado
 
 Está planejada uma nova camada de exploração: **2 itens por fase**, descobertos quando Shopi pula e atinge por baixo determinados elementos do cenário.
 
-Na Fase 1, os itens previstos são:
+A proposta inicial inclui:
 
-- Pneu do caminhão;
-- Luvas.
-
-Na Fase 2:
-
-- Chave do caminhão;
-- Fita de embalagem.
+- Fase 1: Pneu + Luvas;
+- Fase 2: Chave do caminhão + Fita de embalagem;
+- Fase 3: Crachá de entregador + Lanterna;
+- Fase 4: Mapa + Celular;
+- Fase 5: Nota fiscal + Etiqueta de entrega;
+- Fase 6: Documento de troca + Ferramenta.
 
 Os itens serão objetivos secundários, não obrigatórios para terminar a fase. Os seis pneus formarão uma coleção especial do caminhão.
+
+**Importante:** a mecânica de colecionáveis ainda não deve ser considerada implementada sem confirmação de teste no jogo.
 
 ## Diretriz para novas fases
 
@@ -131,6 +132,6 @@ Cada nova fase deve responder a quatro perguntas:
 1. Onde está sendo feita a entrega?
 2. Quem é o cliente?
 3. Qual é o problema da entrega?
-4. Qual mecânica exclusiva representa esse problema?
+4. Qual mecânica representa esse problema?
 
 A campanha deve crescer por variedade de situações, não apenas por aumento de velocidade ou número de obstáculos.
