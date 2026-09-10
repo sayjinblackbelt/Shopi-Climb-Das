@@ -5,22 +5,22 @@
 🇧🇷 [Português](README.md) · 🇺🇸 **English** · 🇪🇸 [Español](README.es.md)
 
 [![Play](https://img.shields.io/badge/🎮-Play%20now-orange)](https://shopi-climb-dash.base44.app/)
-[![Status](https://img.shields.io/badge/status-playable%20prototype-brightgreen)](#current-status)
+[![Status](https://img.shields.io/badge/status-6%20playable%20levels-brightgreen)](#current-status)
 [![Built with](https://img.shields.io/badge/built%20with-Base44-blue)](#development)
 
 ## 🎮 Play now
 
 [**Open Shopi Climb Dash**](https://shopi-climb-dash.base44.app/)
 
-The current prototype runs in a web browser on desktop and mobile.
+The current game runs in a web browser on desktop and mobile. All six campaign levels are playable and have been tested through the end.
 
 ## 🧾 About
 
 **Shopi — Impossible Deliveries** is an independent game project developed incrementally with Base44 and documented on GitHub.
 
-The game combines vertical platforming, ladders, obstacles, score chasing and situational comedy.
+The game combines vertical platforming, ladders, obstacles, score chasing, campaign progression and situational comedy.
 
-Its core idea is simple: instead of fighting traditional villains, Shopi has to complete his delivery while dealing with customers who make the job unnecessarily difficult.
+Instead of traditional villains, Shopi faces **troublesome customers** who turn ordinary deliveries into absurd gameplay challenges.
 
 > **Shopi isn't trying to save the world. He just wants to finish the delivery.**
 
@@ -30,29 +30,60 @@ Its core idea is simple: instead of fighting traditional villains, Shopi has to 
 The protagonist and delivery worker. He is determined, charismatic and slightly clumsy. During the levels, he carries the package he is supposed to deliver.
 
 ### 🚚 Etvaldo
-Shopi's truck assistant and recurring partner. Etvaldo is part of the game's ongoing story and frequently finds himself in ridiculous situations.
+Shopi's truck assistant and recurring partner. Etvaldo is part of the ongoing story and frequently finds himself in ridiculous situations.
 
-### 😡 Tabacudo
-The first troublesome customer. He complains about everything and makes it difficult for Shopi to reach the top of the building.
+### 😡 Customers / Bosses
+The current campaign features six troublesome customers:
 
-## 🏢 First level
+- **Tabacudo** — complains about everything.
+- **Cleovasdo** — wants to return the delivery.
+- **Osvaldêncio** — blocks access routes.
+- **Jocelvânio** — is never at the stated address.
+- **Ubiratânio** — ordered something absurd.
+- **Edivaldir** — wants to exchange the delivery.
 
-### Level 1 — The Building
+## 🗺️ Campaign
 
-Shopi must climb the building, avoid objects thrown by Tabacudo, find Etvaldo and attempt to complete the delivery.
+All six current levels are playable:
 
-The level currently uses:
+| Level | Location | Customer | Problem |
+|---|---|---|---|
+| 1 | Building | Tabacudo | Complains about everything |
+| 2 | House | Cleovasdo | Wants to return the delivery |
+| 3 | Condominium | Osvaldêncio | Blocks routes |
+| 4 | Shopping center | Jocelvânio | Is never at the stated address |
+| 5 | Shopping mall | Ubiratânio | Ordered something absurd |
+| 6 | Distribution center | Edivaldir | Wants to exchange the delivery |
 
-- platforms;
-- ladders;
-- obstacles with different behaviors;
+The full campaign has been tested by the author through the completion of Level 6.
+
+## 🎮 Current gameplay
+
+The game includes:
+
+- 6 playable levels;
+- 3 difficulty levels;
+- platforms and ladders;
+- jumping;
 - lives;
-- checkpoint;
-- score;
-- vertical progression;
-- a final encounter with the customer.
+- checkpoints;
+- scoring;
+- campaign progression;
+- customer bosses;
+- desktop keyboard controls;
+- mobile touch controls.
 
-## 📱 Platforms and controls
+### Difficulty
+
+🟢 **Calm Delivery** — “Just deliver the package.” — ×1
+
+🟡 **Complicated Delivery** — “Are you sure this is the right address?” — ×1.5
+
+🔴 **Impossible Delivery** — “Did you call the manager?” — ×2
+
+On Level 1, Calm Delivery has no objects falling from above. Higher difficulties increase pressure, quantity, speed or behavior of obstacles according to the level.
+
+## 📱 Controls
 
 ### Desktop
 
@@ -62,30 +93,24 @@ The level currently uses:
 
 ### Mobile
 
-The current version includes touch controls designed for mobile play.
+The current version includes touch controls for movement and jumping.
 
-## 🏆 Leaderboard
+## 🏆 Scoreboards and leaderboard
 
-The game includes a leaderboard so players can compare their performance.
+The game already has a leaderboard and is evolving toward two scoring views:
 
-Future versions may expand the system with per-level records and personal bests.
+- **Per-level scoreboard:** best recorded score for each of the six levels, associated with the player and selected difficulty.
+- **Overall scoreboard:** sum of the player's best scores across the six levels.
+
+The new system must preserve existing ranking data and keep the higher per-level record when a new attempt scores lower.
 
 ## 👥 Visitor counter
 
-A global visitor counter is planned for the next version. It should persist across sessions and devices without interfering with gameplay.
+The global visitor counter remains planned. It should persist across sessions, stay separate from the player ranking and not interfere with gameplay.
 
-## 🗺️ Planned campaign
+## 🎯 Collectibles
 
-| Level | Location | Customer | Problem |
-|---|---|---|---|
-| 1 | Building | Tabacudo | Complains about everything |
-| 2 | House | Cleovasdo | Wants to return the delivery |
-| 3 | Condominium | Osvaldêncio | Blocks access routes |
-| 4 | Shopping center | Jocelvânio | Is never at the stated address |
-| 5 | Shopping mall | Ubiratânio | Ordered something absurd |
-| 6 | Distribution center | Edivaldir | Wants to exchange the delivery |
-
-Each level will introduce its own location, customer and gameplay problem.
+Collectibles remain a planned future feature rather than a confirmed current feature. The proposal is two items per level, revealed through exploration and jumping, with score bonuses.
 
 ## 🎯 Game identity
 
@@ -117,23 +142,26 @@ Changes should be incremental so each version can be tested before the next one 
 - [Levels and campaign](docs/03_fases.md)
 - [Gameplay](docs/04_gameplay.md)
 - [Customers / Bosses](docs/05_clientes_bosses.md)
-- [Leaderboard](docs/06_ranking.md)
+- [Scoreboards and leaderboard](docs/06_ranking.md)
 - [Metrics](docs/07_metricas.md)
 - [Base44 and development process](docs/08_base44.md)
 - [Roadmap](docs/09_roadmap.md)
 - [Change history](CHANGELOG.md)
-- [Base MVP prompt](prompts/01_mvp.md)
+- [MVP prompt](prompts/01_mvp.md)
 - [Touch controls prompt](prompts/02_controles_touch.md)
 - [Leaderboard prompt](prompts/03_ranking.md)
 - [Visitor counter prompt](prompts/04_contador_visitantes.md)
+- [Level 2 prompt](prompts/05_fase_2_casa.md)
+- [Difficulty prompt](prompts/06_dificuldade.md)
+- [Per-level and overall scoreboard prompt](prompts/08_placar_fases_geral.md)
 
 ## 📊 Current status
 
-**Version:** 0.1.2 — playable prototype.
+**Development status:** 6-level playable campaign.
 
-**Implemented:** first level, Shopi, Etvaldo, Tabacudo, desktop controls, touch controls and leaderboard.
+**Implemented and tested:** 6 levels, 3 difficulty levels, Shopi, Etvaldo, six customer bosses, platforms, ladders, jumping, lives, checkpoints, scoring, campaign progression, leaderboard and desktop/mobile controls.
 
-**Next:** global visitor counter, gameplay review and first-level polish.
+**Next:** validate the per-level and overall scoreboard implementation, then return to collectibles, gameplay polish and other roadmap improvements.
 
 ## 👨‍💻 Author
 
