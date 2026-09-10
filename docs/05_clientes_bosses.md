@@ -24,60 +24,63 @@ Cada cliente deve possuir:
 
 **Arquétipo:** cliente reclamão.
 
-**Comportamento:** joga objetos para dificultar a subida de Shopi.
+**Comportamento:** cria obstáculos e dificulta a subida de Shopi.
 
 **Humor:** reclama independentemente da situação.
 
-Exemplos de falas:
-
-- "QUE DEMORA!"
-- "EU PEDI ONTEM!"
-- "ESSA CAIXA ESTÁ AMASSADA!"
-- "CHAMA O GERENTE!"
-
-### Resolução planejada
-
-Quando Shopi chega ao topo, Tabacudo recebe a encomenda e pode recusar a entrega, criando uma conclusão cômica para a fase.
-
 ## Cleovasdo
 
-**Fase planejada:** 2 — A Casa.
+**Fase:** 2 — A Casa.
 
 **Arquétipo:** cliente indeciso.
 
-**Problema:** quer devolver a encomenda depois de Shopi percorrer todo o caminho.
+**Problema:** quer devolver a encomenda e foge pela casa.
+
+**Mecânica:** perseguição do cliente.
 
 ## Osvaldêncio
 
-**Fase planejada:** 3 — O Condomínio.
+**Fase:** 3 — O Condomínio.
 
 **Arquétipo:** controlador/síndico.
 
-**Problema:** bloqueia caminhos ou exige regras absurdas para a entrega.
+**Problema:** bloqueia caminhos e cria restrições para a circulação.
+
+**Mecânica:** rotas alternativas e bloqueios.
 
 ## Jocelvânio
 
-**Fase planejada:** 4 — Centro Comercial.
+**Fase:** 4 — O Centro Comercial.
 
 **Arquétipo:** cliente que nunca está onde deveria.
 
-**Problema:** muda constantemente de localização.
+**Problema:** muda de localização e dificulta que Shopi encontre o endereço correto.
+
+**Mecânica:** localização e perseguição.
 
 ## Ubiratânio
 
-**Fase planejada:** 5 — Shopping.
+**Fase:** 5 — O Shopping.
 
 **Arquétipo:** cliente excêntrico.
 
-**Problema:** fez um pedido absurdo ou impossível de atender da forma esperada.
+**Problema:** fez um pedido absurdo que transforma a entrega em uma situação incomum.
+
+**Mecânica:** interação e resolução da situação de entrega.
 
 ## Edivaldir
 
-**Fase planejada:** 6 — Centro de Distribuição.
+**Fase:** 6 — O Centro de Distribuição.
 
 **Arquétipo:** cliente insatisfeito.
 
 **Problema:** quer trocar o produto imediatamente após receber a encomenda.
+
+**Mecânica:** movimentação em ambiente logístico e resolução da troca.
+
+## Situação atual
+
+Os seis clientes da campanha atual estão associados às seis fases jogáveis e testadas. Cada um deve manter identidade própria, com o problema da entrega servindo como base do desafio de gameplay.
 
 ## Novos clientes
 
