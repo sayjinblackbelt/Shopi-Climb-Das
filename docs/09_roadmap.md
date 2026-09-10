@@ -14,38 +14,38 @@
 - [x] Sistema de três níveis de dificuldade.
 - [x] Ajuste do nível fácil da Fase 1 para não receber objetos caindo de cima.
 - [x] Fase 2 — A Casa / Cleovasdo.
-- [x] Mecânica de perseguição de Cleovasdo.
+- [x] Fase 3 — O Condomínio / Osvaldêncio.
+- [x] Fase 4 — O Centro Comercial / Jocelvânio.
+- [x] Fase 5 — O Shopping / Ubiratânio.
+- [x] Fase 6 — O Centro de Distribuição / Edivaldir.
+- [x] Campanha completa com 6 fases jogáveis.
+- [x] Teste da campanha completa até o final.
 
 ## 🟡 Próxima etapa
 
-- [ ] Implementar itens colecionáveis nas fases jogáveis.
-- [ ] Testar a nova mecânica de descoberta por salto.
+- [ ] Implementar e testar placar por fase.
+- [ ] Implementar e testar placar geral da campanha.
+- [ ] Garantir persistência e substituição correta dos melhores resultados.
 - [ ] Refinar física e colisões.
 - [ ] Revisar comportamento das escadas.
 - [ ] Refinar feedback visual e sonoro.
-- [ ] Avaliar contador global de visitantes.
 
-## 🔵 Desenvolvimento de conteúdo
+## 🔵 Sistemas planejados
 
-- [x] Fase 1 — Prédio / Tabacudo.
-- [x] Fase 2 — Casa / Cleovasdo.
-- [ ] Fase 3 — Condomínio / Osvaldêncio.
-- [ ] Fase 4 — Centro comercial / Jocelvânio.
-- [ ] Fase 5 — Shopping / Ubiratânio.
-- [ ] Fase 6 — Centro de distribuição / Edivaldir.
+- [ ] Itens colecionáveis: 2 por fase.
+- [ ] Coleção especial dos 6 pneus do caminhão.
+- [ ] Contador global de visitantes.
+- [ ] Estatísticas de partidas.
+- [ ] Melhores tempos.
 
 ## 🟣 Expansão futura
 
-- [ ] Sistema completo de progressão entre fases.
 - [ ] Novos tipos de obstáculos.
 - [ ] Novos comportamentos de clientes.
-- [ ] Sistema de estatísticas de partidas.
-- [ ] Ranking por fase.
-- [ ] Recordes pessoais.
-- [ ] Coleção dos 6 pneus do caminhão.
 - [ ] Melhorias de acessibilidade.
 - [ ] Refinamento visual dos personagens.
 - [ ] Identidade sonora própria.
+- [ ] Conteúdo adicional além das 6 fases atuais.
 
 ## Princípio de priorização
 
@@ -54,3 +54,5 @@ Priorizar primeiro problemas que afetam a diversão e a conclusão das fases. De
 O desenvolvimento segue ciclos curtos de implementação e teste:
 
 **Ideia → Prompt → Base44 → Teste → Feedback → Ajuste → Registro no GitHub**.
+
+Uma funcionalidade só deve ser marcada como concluída quando estiver efetivamente implementada e testada no jogo.
