@@ -23,40 +23,39 @@ Shopi é o personagem controlado pelo jogador. Ele precisa atravessar diferentes
 
 **Papel:** ajudante do caminhão e parceiro recorrente de Shopi.
 
-Etvaldo acompanha Shopi nas entregas e funciona como personagem narrativo recorrente. A primeira fase estabelece a relação dos dois ao colocar Etvaldo preso no prédio.
-
-Possibilidades futuras:
-- aparecer entre as fases;
-- orientar o jogador;
-- causar situações cômicas;
-- participar diretamente de determinadas mecânicas;
-- virar parte importante da narrativa final.
+Etvaldo acompanha Shopi nas entregas e funciona como personagem narrativo recorrente. Ele participa das situações cômicas e pode aparecer em diferentes momentos da campanha.
 
 ## Clientes problemáticos
 
-O cliente de cada fase funciona como o "boss" narrativo.
+O cliente de cada fase funciona como o "boss" narrativo. O conflito vem da tentativa de concluir a entrega, não de derrotar o cliente em combate tradicional.
 
 ### Tabacudo
 
-Primeiro cliente do jogo.
+**Fase:** 1 — O Prédio.
 
 **Personalidade:** reclamão e impaciente.
 
-**Problema:** reclama de tudo e dificulta a entrega jogando objetos pela estrutura.
+**Problema:** reclama de tudo e dificulta a entrega.
 
 ### Cleovasdo
 
+**Fase:** 2 — A Casa.
+
 **Personalidade:** indeciso.
 
-**Problema:** quer devolver a encomenda depois de Shopi atravessar todo o caminho.
+**Problema:** quer devolver a encomenda e foge pela casa.
 
 ### Osvaldêncio
 
+**Fase:** 3 — O Condomínio.
+
 **Personalidade:** controlador.
 
-**Problema:** usa regras do condomínio para bloquear caminhos e impedir a passagem do entregador.
+**Problema:** bloqueia caminhos e cria regras para impedir a passagem do entregador.
 
 ### Jocelvânio
+
+**Fase:** 4 — O Centro Comercial.
 
 **Personalidade:** distraído e difícil de localizar.
 
@@ -64,11 +63,15 @@ Primeiro cliente do jogo.
 
 ### Ubiratânio
 
+**Fase:** 5 — O Shopping.
+
 **Personalidade:** exigente e excêntrico.
 
-**Problema:** fez um pedido absurdo ou impossível de atender de maneira convencional.
+**Problema:** fez um pedido absurdo que transforma a entrega em um desafio incomum.
 
 ### Edivaldir
+
+**Fase:** 6 — O Centro de Distribuição.
 
 **Personalidade:** insatisfeito.
 
