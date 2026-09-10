@@ -5,22 +5,22 @@
 🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 **Español**
 
 [![Jugar](https://img.shields.io/badge/🎮-Jugar%20ahora-orange)](https://shopi-climb-dash.base44.app/)
-[![Estado](https://img.shields.io/badge/estado-prototipo%20jugable-brightgreen)](#estado-actual)
+[![Estado](https://img.shields.io/badge/estado-6%20fases%20jugables-brightgreen)](#estado-actual)
 [![Desarrollado con](https://img.shields.io/badge/desarrollado%20con-Base44-blue)](#desarrollo)
 
 ## 🎮 Jugar ahora
 
 [**Abrir Shopi Climb Dash**](https://shopi-climb-dash.base44.app/)
 
-El prototipo actual funciona en el navegador, tanto en computadora como en dispositivos móviles.
+El juego actual funciona en el navegador, tanto en computadora como en dispositivos móviles. Las seis fases de la campaña son jugables y fueron probadas hasta el final.
 
 ## 🧾 Sobre el proyecto
 
 **Shopi — Entregas Imposibles** es un proyecto independiente de videojuego desarrollado de forma incremental con Base44 y documentado en GitHub.
 
-El juego combina plataformas verticales, escaleras, obstáculos, puntuación y comedia situacional.
+El juego combina plataformas verticales, escaleras, obstáculos, puntuación, progresión de campaña y comedia situacional.
 
-La idea central es sencilla: en lugar de luchar contra villanos tradicionales, Shopi tiene que completar su entrega mientras enfrenta clientes que hacen que el trabajo sea mucho más difícil de lo necesario.
+En lugar de villanos tradicionales, Shopi enfrenta a **clientes problemáticos** que convierten entregas normales en desafíos absurdos.
 
 > **Shopi no quiere salvar el mundo. Solo quiere terminar la entrega.**
 
@@ -32,27 +32,58 @@ El protagonista y repartidor. Es decidido, carismático y un poco torpe. Durante
 ### 🚚 Etvaldo
 El ayudante de Shopi en el camión y compañero recurrente. Forma parte de la historia y suele terminar en situaciones absurdas.
 
-### 😡 Tabacudo
-El primer cliente problemático. Se queja de todo y dificulta que Shopi llegue hasta la parte superior del edificio.
+### 😡 Clientes / Bosses
+La campaña actual presenta seis clientes problemáticos:
 
-## 🏢 Primera fase
+- **Tabacudo** — se queja de todo.
+- **Cleovasdo** — quiere devolver la entrega.
+- **Osvaldêncio** — bloquea los caminos.
+- **Jocelvânio** — nunca está en la dirección indicada.
+- **Ubiratânio** — pidió algo absurdo.
+- **Edivaldir** — quiere cambiar la entrega.
 
-### Fase 1 — El edificio
+## 🗺️ Campaña
 
-Shopi debe subir por el edificio, esquivar los objetos que Tabacudo lanza, encontrar a Etvaldo e intentar completar la entrega.
+Las seis fases actuales son jugables:
 
-La fase utiliza:
+| Fase | Lugar | Cliente | Problema |
+|---|---|---|---|
+| 1 | Edificio | Tabacudo | Se queja de todo |
+| 2 | Casa | Cleovasdo | Quiere devolver la entrega |
+| 3 | Condominio | Osvaldêncio | Bloquea los caminos |
+| 4 | Centro comercial | Jocelvânio | Nunca está en la dirección indicada |
+| 5 | Centro comercial grande | Ubiratânio | Pidió algo absurdo |
+| 6 | Centro de distribución | Edivaldir | Quiere cambiar la entrega |
 
-- plataformas;
-- escaleras;
-- obstáculos con diferentes comportamientos;
+El autor probó la campaña completa hasta terminar la Fase 6.
+
+## 🎮 Gameplay actual
+
+El juego incluye:
+
+- 6 fases jugables;
+- 3 niveles de dificultad;
+- plataformas y escaleras;
+- salto;
 - vidas;
-- checkpoint;
+- checkpoints;
 - puntuación;
-- progresión vertical;
-- encuentro final con el cliente.
+- progresión de campaña;
+- clientes como bosses;
+- controles de computadora;
+- controles táctiles para móviles.
 
-## 📱 Plataformas y controles
+### Dificultad
+
+🟢 **Entrega Tranquila** — “Solo entrega la caja.” — ×1
+
+🟡 **Entrega Complicada** — “¿Seguro que esta es la dirección correcta?” — ×1,5
+
+🔴 **Entrega Imposible** — “¿Llamaste al gerente?” — ×2
+
+En la Fase 1, Entrega Tranquila no tiene objetos que caen desde arriba. Las dificultades superiores aumentan la presión, cantidad, velocidad o comportamiento de los obstáculos según la fase.
+
+## 📱 Controles
 
 ### Computadora
 
@@ -62,30 +93,24 @@ La fase utiliza:
 
 ### Móvil
 
-La versión actual incluye controles táctiles para jugar en dispositivos móviles.
+La versión actual incluye controles táctiles para movimiento y salto.
 
-## 🏆 Clasificación
+## 🏆 Puntuaciones y clasificación
 
-El juego cuenta con una tabla de líderes para comparar el rendimiento de los jugadores.
+El juego ya cuenta con una tabla de líderes y está evolucionando hacia dos vistas de puntuación:
 
-En futuras versiones, el sistema podrá incluir récords por fase y mejores marcas personales.
+- **Puntuación por fase:** mejor puntuación registrada para cada una de las seis fases, asociada al jugador y a la dificultad utilizada.
+- **Puntuación general:** suma de las mejores puntuaciones del jugador en las seis fases.
+
+El nuevo sistema debe preservar los datos existentes y mantener el mejor resultado de cada fase cuando un nuevo intento tenga una puntuación menor.
 
 ## 👥 Contador de visitantes
 
-Está planificado un contador global de visitantes para la próxima versión. Debe funcionar entre sesiones y dispositivos sin interferir con el juego.
+El contador global de visitantes sigue planificado. Debe ser persistente, estar separado de la clasificación de jugadores y no interferir con la jugabilidad.
 
-## 🗺️ Campaña planificada
+## 🎯 Coleccionables
 
-| Fase | Lugar | Cliente | Problema |
-|---|---|---|---|
-| 1 | Edificio | Tabacudo | Se queja de todo |
-| 2 | Casa | Cleovasdo | Quiere devolver la entrega |
-| 3 | Condominio | Osvaldêncio | Bloquea los accesos |
-| 4 | Centro comercial | Jocelvânio | Nunca está en la dirección indicada |
-| 5 | Centro comercial grande | Ubiratânio | Pidió algo absurdo |
-| 6 | Centro de distribución | Edivaldir | Quiere cambiar la entrega |
-
-Cada fase tendrá su propio lugar, cliente y problema de gameplay.
+Los objetos coleccionables siguen siendo una función planificada, no una función confirmada de la versión actual. La propuesta es tener dos objetos por fase, descubiertos mediante exploración y salto, con bonificaciones de puntuación.
 
 ## 🎯 Identidad del juego
 
@@ -117,7 +142,7 @@ Las modificaciones deben hacerse de forma incremental para probar cada versión 
 - [Fases y campaña](docs/03_fases.md)
 - [Gameplay](docs/04_gameplay.md)
 - [Clientes / Bosses](docs/05_clientes_bosses.md)
-- [Ranking](docs/06_ranking.md)
+- [Puntuaciones y ranking](docs/06_ranking.md)
 - [Métricas](docs/07_metricas.md)
 - [Base44 y proceso de desarrollo](docs/08_base44.md)
 - [Roadmap](docs/09_roadmap.md)
@@ -126,14 +151,17 @@ Las modificaciones deben hacerse de forma incremental para probar cada versión 
 - [Prompt de controles táctiles](prompts/02_controles_touch.md)
 - [Prompt del ranking](prompts/03_ranking.md)
 - [Prompt del contador de visitantes](prompts/04_contador_visitantes.md)
+- [Prompt de la Fase 2](prompts/05_fase_2_casa.md)
+- [Prompt del sistema de dificultad](prompts/06_dificuldade.md)
+- [Prompt de puntuación por fase y general](prompts/08_placar_fases_geral.md)
 
 ## 📊 Estado actual
 
-**Versión:** 0.1.2 — prototipo jugable.
+**Estado de desarrollo:** campaña jugable de 6 fases.
 
-**Implementado:** primera fase, Shopi, Etvaldo, Tabacudo, controles de computadora, controles táctiles y tabla de líderes.
+**Implementado y probado:** 6 fases, 3 niveles de dificultad, Shopi, Etvaldo, seis clientes/bosses, plataformas, escaleras, salto, vidas, checkpoints, puntuación, progresión de campaña, clasificación y controles de computadora/móviles.
 
-**Próximo paso:** contador global de visitantes, revisión del gameplay y refinamiento de la primera fase.
+**Próximo paso:** validar la implementación de la puntuación por fase y de la puntuación general; después retomar los coleccionables, el refinamiento del gameplay y otras mejoras del roadmap.
 
 ## 👨‍💻 Autor
 
