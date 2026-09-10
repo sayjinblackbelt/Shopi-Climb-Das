@@ -20,12 +20,20 @@
 - [x] Fase 6 — O Centro de Distribuição / Edivaldir.
 - [x] Campanha completa com 6 fases jogáveis.
 - [x] Teste da campanha completa até o final.
+- [x] Portal do projeto no GitHub Pages preparado em `/docs`.
+- [x] Portal integrado com tentativa de incorporação direta do jogo e fallback para nova aba.
+- [x] Página inicial organizada como portal oficial do projeto.
+- [x] Diário estruturado para testes com alunos.
 
 ## 🟡 Próxima etapa
 
-- [ ] Implementar e testar placar por fase.
-- [ ] Implementar e testar placar geral da campanha.
+- [ ] Habilitar/publicar o GitHub Pages nas configurações do repositório.
+- [ ] Confirmar carregamento do jogo incorporado no GitHub Pages.
+- [ ] Implementar e testar placar por fase no Base44.
+- [ ] Implementar e testar placar geral da campanha no Base44.
 - [ ] Garantir persistência e substituição correta dos melhores resultados.
+- [ ] Realizar primeira rodada de testes com alunos.
+- [ ] Corrigir problemas encontrados nos testes.
 - [ ] Refinar física e colisões.
 - [ ] Revisar comportamento das escadas.
 - [ ] Refinar feedback visual e sonoro.
