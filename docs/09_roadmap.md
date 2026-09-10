@@ -5,26 +5,30 @@
 - [x] Definição do conceito Shopi.
 - [x] Criação do protagonista Shopi.
 - [x] Criação do ajudante Etvaldo.
-- [x] Definição do sistema de clientes problemáticos como bosses.
-- [x] Definição do primeiro cliente: Tabacudo.
+- [x] Definição dos clientes problemáticos como bosses.
+- [x] Tabacudo como primeiro cliente.
 - [x] MVP da primeira fase.
 - [x] Controles para desktop.
 - [x] Controles por toque para celular.
 - [x] Ranking de líderes.
+- [x] Sistema de três níveis de dificuldade.
+- [x] Ajuste do nível fácil da Fase 1 para não receber objetos caindo de cima.
+- [x] Fase 2 — A Casa / Cleovasdo.
+- [x] Mecânica de perseguição de Cleovasdo.
 
 ## 🟡 Próxima etapa
 
-- [ ] Adicionar contador global de visitantes.
-- [ ] Testar e ajustar a primeira fase.
-- [ ] Revisar física de Shopi.
-- [ ] Revisar colisões e comportamento das escadas.
-- [ ] Balancear dificuldade.
+- [ ] Implementar itens colecionáveis nas fases jogáveis.
+- [ ] Testar a nova mecânica de descoberta por salto.
+- [ ] Refinar física e colisões.
+- [ ] Revisar comportamento das escadas.
 - [ ] Refinar feedback visual e sonoro.
-- [ ] Registrar screenshots e versão jogável.
+- [ ] Avaliar contador global de visitantes.
 
 ## 🔵 Desenvolvimento de conteúdo
 
-- [ ] Fase 2 — Casa / Cleovasdo.
+- [x] Fase 1 — Prédio / Tabacudo.
+- [x] Fase 2 — Casa / Cleovasdo.
 - [ ] Fase 3 — Condomínio / Osvaldêncio.
 - [ ] Fase 4 — Centro comercial / Jocelvânio.
 - [ ] Fase 5 — Shopping / Ubiratânio.
@@ -32,16 +36,21 @@
 
 ## 🟣 Expansão futura
 
-- [ ] Sistema de progressão entre fases.
+- [ ] Sistema completo de progressão entre fases.
 - [ ] Novos tipos de obstáculos.
 - [ ] Novos comportamentos de clientes.
 - [ ] Sistema de estatísticas de partidas.
 - [ ] Ranking por fase.
 - [ ] Recordes pessoais.
+- [ ] Coleção dos 6 pneus do caminhão.
 - [ ] Melhorias de acessibilidade.
 - [ ] Refinamento visual dos personagens.
 - [ ] Identidade sonora própria.
 
 ## Princípio de priorização
 
-Priorizar primeiro problemas que afetam a diversão e a conclusão da fase. Depois ampliar conteúdo e, por último, adicionar sistemas periféricos.
+Priorizar primeiro problemas que afetam a diversão e a conclusão das fases. Depois ampliar conteúdo e mecânicas centrais e, por último, adicionar sistemas periféricos.
+
+O desenvolvimento segue ciclos curtos de implementação e teste:
+
+**Ideia → Prompt → Base44 → Teste → Feedback → Ajuste → Registro no GitHub**.
