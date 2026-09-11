@@ -2,7 +2,7 @@
 
 ## Conceito
 
-Em Shopi, o "boss" é o cliente problemático da entrega.
+Em Shopi, o “boss” é o cliente problemático da entrega.
 
 Ele não precisa ser um vilão. O desafio é resolver a situação enquanto o jogador tenta concluir o trabalho.
 
@@ -18,7 +18,9 @@ Cada cliente deve possuir:
 - animações;
 - encerramento cômico.
 
-## Tabacudo
+## Clientes das fases 1–6
+
+### Tabacudo
 
 **Fase:** 1 — O Prédio.
 
@@ -26,9 +28,7 @@ Cada cliente deve possuir:
 
 **Comportamento:** cria obstáculos e dificulta a subida de Shopi.
 
-**Humor:** reclama independentemente da situação.
-
-## Cleovasdo
+### Cleovasdo
 
 **Fase:** 2 — A Casa.
 
@@ -38,7 +38,7 @@ Cada cliente deve possuir:
 
 **Mecânica:** perseguição do cliente.
 
-## Osvaldêncio
+### Osvaldêncio
 
 **Fase:** 3 — O Condomínio.
 
@@ -48,7 +48,7 @@ Cada cliente deve possuir:
 
 **Mecânica:** rotas alternativas e bloqueios.
 
-## Jocelvânio
+### Jocelvânio
 
 **Fase:** 4 — O Centro Comercial.
 
@@ -58,7 +58,7 @@ Cada cliente deve possuir:
 
 **Mecânica:** localização e perseguição.
 
-## Ubiratânio
+### Ubiratânio
 
 **Fase:** 5 — O Shopping.
 
@@ -66,9 +66,7 @@ Cada cliente deve possuir:
 
 **Problema:** fez um pedido absurdo que transforma a entrega em uma situação incomum.
 
-**Mecânica:** interação e resolução da situação de entrega.
-
-## Edivaldir
+### Edivaldir
 
 **Fase:** 6 — O Centro de Distribuição.
 
@@ -76,18 +74,106 @@ Cada cliente deve possuir:
 
 **Problema:** quer trocar o produto imediatamente após receber a encomenda.
 
-**Mecânica:** movimentação em ambiente logístico e resolução da troca.
+## Novos clientes — fases 7–16
 
-## Situação atual
+### Valdemarildo
 
-Os seis clientes da campanha atual estão associados às seis fases jogáveis e testadas. Cada um deve manter identidade própria, com o problema da entrega servindo como base do desafio de gameplay.
+**Fase:** 7 — O Bairro.
 
-## Novos clientes
+**Problema:** muda de endereço e fornece informações contraditórias.
 
-Os nomes podem seguir a identidade humorística do universo: nomes que parecem familiares ou brasileiros, mas possuem combinações incomuns, inesperadas ou ligeiramente erradas.
+**Mecânica:** localização e pistas.
 
-Exemplos de banco de nomes:
+### Claudecirvaldo
 
-Tabacudo, Cleovasdo, Jocelvânio, Osvaldêncio, Ubiratânio, Edivaldir, Cleberson, Gervásio, Josenildo, Nivaldson, Etelvino, Valdomiro.
+**Fase:** 8 — O Prédio Comercial.
 
-Evitar transformar o padrão de nomes em piada ofensiva sobre grupos reais. O humor deve estar na personalidade e na situação.
+**Problema:** exige autorizações para liberar acessos.
+
+**Mecânica:** burocracia e mecanismos.
+
+### Geraldânio
+
+**Fase:** 9 — A Central de Entregas.
+
+**Problema:** mistura informações e transforma a logística em caos.
+
+**Mecânica:** identificação de encomenda e movimentação.
+
+### Valdovino
+
+**Fase:** 10 — O Estacionamento.
+
+**Problema:** cria uma situação de localização em um estacionamento amplo.
+
+**Mecânica:** orientação espacial.
+
+### Edivanildo
+
+**Fase:** 11 — O Hospital.
+
+**Problema:** Shopi precisa localizar o setor correto.
+
+**Mecânica:** circulação e localização.
+
+### Professor Valdécio
+
+**Fase:** 12 — A Escola.
+
+**Problema:** a entrega precisa atravessar um ambiente escolar complexo.
+
+**Mecânica:** percurso e múltiplas rotas.
+
+### Osvaldirson
+
+**Fase:** 13 — O Mercado.
+
+**Problema:** ambiente congestionado dificulta a entrega.
+
+**Mecânica:** navegação entre obstáculos móveis e corredores.
+
+### Jocelmar
+
+**Fase:** 14 — A Obra.
+
+**Problema:** o destino está em um canteiro de obras em constante movimentação.
+
+**Mecânica:** plataformas e timing.
+
+### Ubiraldo
+
+**Fase:** 15 — O Shopping.
+
+**Problema:** a entrega exige exploração de um grande ambiente e combinação de desafios.
+
+**Mecânica:** exploração e combinação de mecânicas.
+
+### Gerentão
+
+**Fase:** 16 — A Última Entrega.
+
+**Papel:** boss final do Capítulo 1.
+
+**Arquétipo:** burocracia absoluta.
+
+**Problema:** cria regras e obstáculos absurdos para impedir a conclusão simples da entrega.
+
+**Mecânica:** progressão em três etapas, incluindo mecanismos acionados pela cabeçada.
+
+O confronto é não violento. O objetivo de Shopi é simplesmente conseguir entregar a encomenda.
+
+Final:
+
+> “Está faltando a assinatura.”
+
+Depois da conclusão, a campanha apresenta **CAPÍTULO 1 CONCLUÍDO!**.
+
+## Cabeçada e clientes
+
+A mecânica de bater nos blocos com a cabeça cria novas possibilidades para os clientes. Cada fase pode usar blocos interativos para representar o problema específico da entrega: revelar pistas, liberar acessos, ativar mecanismos, movimentar plataformas ou criar situações cômicas.
+
+A utilização deve crescer progressivamente ao longo das fases e atingir sua aplicação mais importante na Fase 16.
+
+## Diretriz de identidade
+
+Os nomes seguem a identidade humorística do universo: combinações incomuns e inesperadas. O humor deve estar principalmente na personalidade, situação e problema da entrega, evitando piadas ofensivas sobre grupos reais.
