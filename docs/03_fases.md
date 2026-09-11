@@ -4,134 +4,171 @@
 
 A campanha acompanha Shopi e Etvaldo em diferentes tipos de entrega. Cada fase muda o ambiente e apresenta um cliente problemático com uma situação própria.
 
-**Status atual:** as 6 fases estão jogáveis e foram testadas pelo autor até a conclusão da campanha.
+**Status atual:** a campanha foi expandida de 6 para **16 fases**, incluindo 10 novas fases e um boss final para o Capítulo 1.
 
-| Fase | Local | Cliente | Problema principal | Status |
-|---|---|---|---|---|
-| 1 | Prédio | Tabacudo | Reclama de tudo | 🟢 Jogável e testada |
-| 2 | Casa | Cleovasdo | Quer devolver a encomenda | 🟢 Jogável e testada |
-| 3 | Condomínio | Osvaldêncio | Bloqueia caminhos | 🟢 Jogável e testada |
-| 4 | Centro comercial | Jocelvânio | Nunca está no endereço | 🟢 Jogável e testada |
-| 5 | Shopping | Ubiratânio | Pediu algo absurdo | 🟢 Jogável e testada |
-| 6 | Centro de distribuição | Edivaldir | Quer trocar a encomenda | 🟢 Jogável e testada |
+| Fase | Local | Cliente | Problema / mecânica principal |
+|---|---|---|---|
+| 1 | Prédio | Tabacudo | Reclama de tudo |
+| 2 | Casa | Cleovasdo | Quer devolver a encomenda / perseguição |
+| 3 | Condomínio | Osvaldêncio | Bloqueia caminhos / rotas alternativas |
+| 4 | Centro comercial | Jocelvânio | Nunca está no endereço / localização |
+| 5 | Shopping | Ubiratânio | Pedido absurdo / interação |
+| 6 | Centro de distribuição | Edivaldir | Troca da encomenda / logística |
+| 7 | Bairro | Valdemarildo | Encontrar o endereço correto |
+| 8 | Prédio comercial | Claudecirvaldo | Burocracia e liberação de acessos |
+| 9 | Central de entregas | Geraldânio | Caos logístico e identificação de encomenda |
+| 10 | Estacionamento | Valdovino | Orientação espacial |
+| 11 | Hospital | Edivanildo | Localização de setor e circulação |
+| 12 | Escola | Professor Valdécio | Percurso e múltiplas rotas |
+| 13 | Mercado | Osvaldirson | Navegação em ambiente congestionado |
+| 14 | Obra | Jocelmar | Plataformas e timing |
+| 15 | Shopping | Ubiraldo | Exploração e combinação de mecânicas |
+| 16 | A Última Entrega | Gerentão | Boss final do Capítulo 1 |
 
-## Fase 1 — O Prédio
+## Fases 1–6 — campanha original
 
-**Status:** jogável e testada.
+As seis fases originais permanecem como base da campanha e preservam suas mecânicas, personagens e identidade.
 
-### Objetivo
+### Fase 1 — O Prédio
 
-Subir pelo prédio, superar os obstáculos, encontrar Etvaldo e tentar concluir a entrega para Tabacudo.
+Tabacudo cria obstáculos para Shopi durante a progressão vertical. Na **Entrega Tranquila**, não existem objetos caindo de cima; as dificuldades superiores aumentam a pressão.
 
-### Estrutura
+### Fase 2 — A Casa
 
-- aproximadamente cinco níveis verticais;
-- plataformas horizontais;
-- escadas;
-- caminhos alternativos simples;
-- área inicial junto ao caminhão;
-- objetivo final no topo.
+Cleovasdo foge pela casa depois de decidir devolver a encomenda. A perseguição acontece em ambientes domésticos.
 
-### Cliente: Tabacudo
+### Fase 3 — O Condomínio
 
-Tabacudo permanece na parte superior e cria obstáculos para Shopi.
+Osvaldêncio bloqueia caminhos e transforma a escolha de rotas em parte central do desafio.
 
-### Dificuldade
+### Fase 4 — O Centro Comercial
 
-- **Entrega Tranquila:** sem objetos caindo de cima;
-- **Entrega Complicada:** objetos lançados em quantidade e velocidade moderadas;
-- **Entrega Impossível:** maior frequência, velocidade e imprevisibilidade.
+Jocelvânio nunca está exatamente onde deveria. O jogador precisa localizar o cliente.
 
-Essa diferenciação foi incorporada após feedback de jogadores, que consideraram os objetos caindo inadequados para o nível fácil.
+### Fase 5 — O Shopping
 
-## Fase 2 — A Casa
+Ubiratânio fez um pedido absurdo, criando uma situação especial de entrega.
 
-**Status:** jogável e testada.
+### Fase 6 — O Centro de Distribuição
 
-**Cliente:** Cleovasdo.
+Edivaldir quer trocar a encomenda. O ambiente de logística sustenta o desafio.
 
-Cleovasdo quer devolver a encomenda e foge pela casa. Shopi precisa persegui-lo e alcançá-lo.
+## Fase 7 — O Bairro
 
-### Áreas
+**Cliente:** Valdemarildo.
 
-- jardim/garagem;
-- sala;
-- cozinha/corredor;
-- segundo andar;
-- varanda.
+Valdemarildo muda de endereço e fornece informações contraditórias. O jogador precisa observar placas, ruas e caminhos para encontrar o local correto.
 
-### Obstáculos
+A mecânica de **cabeçada** pode revelar pistas de endereço em blocos interativos.
 
-A ambientação utiliza objetos domésticos, como bolas, brinquedos, vasos, caixas, cadeiras, móveis, ferramentas e aspirador.
+## Fase 8 — O Prédio Comercial
 
-### Encerramento
+**Cliente:** Claudecirvaldo.
 
-Quando Shopi alcança Cleovasdo, a entrega é realizada, mas o cliente revela que quer devolver a encomenda. Etvaldo participa da gag final.
+A burocracia controla a circulação. O jogador precisa liberar portas, acessos e mecanismos para avançar.
 
-## Fase 3 — O Condomínio
+Blocos atingidos com a cabeça podem ativar mecanismos e liberar acessos.
 
-**Status:** jogável e testada.
+## Fase 9 — A Central de Entregas
 
-**Cliente:** Osvaldêncio.
+**Cliente:** Geraldânio.
 
-A fase utiliza múltiplos caminhos, bloqueios e áreas do condomínio para transformar a circulação no principal desafio da entrega.
+O ambiente apresenta esteiras, plataformas móveis e áreas de carga. O jogador precisa identificar a encomenda correta por pistas visuais.
 
-**Mecânica principal:** rotas alternativas e bloqueios.
+A cabeçada pode alterar esteiras, revelar etiquetas ou liberar caminhos.
 
-## Fase 4 — O Centro Comercial
+## Fase 10 — O Estacionamento
 
-**Status:** jogável e testada.
+**Cliente:** Valdovino.
 
-**Cliente:** Jocelvânio.
+A fase trabalha orientação espacial em um estacionamento verticalizado, com vagas, rampas, sinalizações e caminhos alternativos.
 
-Shopi chega ao endereço, mas o cliente nunca está exatamente onde deveria estar.
+Blocos interativos podem revelar números, setas e mapas.
 
-**Mecânica principal:** localização e perseguição do cliente.
+## Fase 11 — O Hospital
 
-## Fase 5 — O Shopping
+**Cliente:** Edivanildo.
 
-**Status:** jogável e testada.
+O desafio é localizar o setor correto em um ambiente com corredores, escadas, elevadores e áreas restritas. O humor permanece concentrado na burocracia e na situação de entrega.
 
-**Cliente:** Ubiratânio.
+## Fase 12 — A Escola
 
-O pedido do cliente cria uma situação de entrega absurda que serve como desafio da fase.
+**Cliente:** Professor Valdécio.
 
-**Mecânica principal:** interação e resolução da situação de entrega.
+A fase trabalha percurso e múltiplas rotas em salas, corredores e outros ambientes escolares. Blocos podem revelar horários, salas e pistas.
 
-## Fase 6 — O Centro de Distribuição
+## Fase 13 — O Mercado
 
-**Status:** jogável e testada.
+**Cliente:** Osvaldirson.
 
-**Cliente:** Edivaldir.
+A navegação acontece em ambiente congestionado, com prateleiras, carrinhos, corredores e áreas de estoque. A cabeçada pode liberar passagens e atalhos.
 
-A entrega chega ao destino, mas o cliente imediatamente quer trocar o produto.
+## Fase 14 — A Obra
 
-**Mecânica principal:** movimentação em ambiente de distribuição e resolução da troca.
+**Cliente:** Jocelmar.
+
+Canteiro de obras com andaimes, plataformas, escadas e estruturas móveis. A mecânica dominante é timing e movimentação.
+
+Blocos interativos podem ativar estruturas e liberar plataformas.
+
+## Fase 15 — O Shopping
+
+**Cliente:** Ubiraldo.
+
+Maior ambiente da campanha até então. Combina exploração, caminhos alternativos, plataformas, mecanismos e mecânicas anteriores.
+
+A cabeçada passa a ser utilizada de maneira mais integrada, mas não deve tornar cada interação obrigatória para terminar a fase.
+
+## Fase 16 — A Última Entrega
+
+**Boss final:** Gerentão.
+
+O Gerentão representa a burocracia absoluta das entregas.
+
+A fase possui três etapas:
+
+1. caminho com obstáculos e plataformas;
+2. burocracia com regras e rotas que mudam de forma visível e previsível;
+3. uso da cabeçada para ativar mecanismos e avançar.
+
+O confronto é não violento: o objetivo é entregar a encomenda.
+
+Final cômico:
+
+> “Está faltando a assinatura.”
+
+Depois da conclusão, o jogo apresenta **CAPÍTULO 1 CONCLUÍDO!**, resultados da campanha e um teaser para uma possível continuação.
+
+## Nova mecânica — Cabeçada
+
+Determinados blocos possuem comportamento interativo. Quando Shopi pula e atinge sua parte inferior com a cabeça, o bloco reage com animação, movimento, efeito sonoro e feedback visual.
+
+O resultado pode ser:
+
+- pontos;
+- item ou coletável;
+- pista;
+- abertura de passagem;
+- ativação de mecanismo;
+- movimentação de plataforma;
+- alteração de esteira;
+- reação cômica.
+
+A mecânica funciona pelo salto normal em desktop e mobile. Não há botão específico para cabeçada.
+
+A colisão deve ser justa e possuir proteção contra ativações repetidas involuntárias.
 
 ## Itens colecionáveis — planejado
 
-Está planejada uma nova camada de exploração: **2 itens por fase**, descobertos quando Shopi pula e atinge por baixo determinados elementos do cenário.
-
-A proposta inicial inclui:
-
-- Fase 1: Pneu + Luvas;
-- Fase 2: Chave do caminhão + Fita de embalagem;
-- Fase 3: Crachá de entregador + Lanterna;
-- Fase 4: Mapa + Celular;
-- Fase 5: Nota fiscal + Etiqueta de entrega;
-- Fase 6: Documento de troca + Ferramenta.
-
-Os itens serão objetivos secundários, não obrigatórios para terminar a fase. Os seis pneus formarão uma coleção especial do caminhão.
-
-**Importante:** a mecânica de colecionáveis ainda não deve ser considerada implementada sem confirmação de teste no jogo.
+A proposta anterior de 2 itens por fase e coleção dos seis pneus permanece registrada como evolução independente. A existência dos colecionáveis deve ser documentada como implementada somente após confirmação específica de teste no jogo.
 
 ## Diretriz para novas fases
 
-Cada nova fase deve responder a quatro perguntas:
+Cada fase deve responder a quatro perguntas:
 
 1. Onde está sendo feita a entrega?
 2. Quem é o cliente?
 3. Qual é o problema da entrega?
 4. Qual mecânica representa esse problema?
 
-A campanha deve crescer por variedade de situações, não apenas por aumento de velocidade ou número de obstáculos.
+A campanha deve crescer por variedade de situações, exploração e domínio progressivo das mecânicas, não apenas por aumento de velocidade ou quantidade de obstáculos.
