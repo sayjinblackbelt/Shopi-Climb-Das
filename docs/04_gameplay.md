@@ -2,13 +2,11 @@
 
 ## Loop principal
 
-A experiência de jogo segue este ciclo:
+A experiência segue o ciclo:
 
-**Receber entrega → entrar no local → superar obstáculos → localizar/resolver o problema → encontrar o cliente → concluir a entrega → avançar na campanha**
+**Receber entrega → entrar no local → superar obstáculos → explorar/usar mecanismos → localizar ou resolver o problema → encontrar o cliente → concluir a entrega → avançar na campanha**
 
 ## Movimentação
-
-Shopi possui controles simples:
 
 - esquerda/direita: movimentação horizontal;
 - cima/baixo: subir e descer escadas;
@@ -18,9 +16,7 @@ A experiência funciona em desktop e dispositivos móveis.
 
 ## Campanha
 
-O jogo atual possui **6 fases jogáveis**, todas testadas até o final pelo autor. Cada fase apresenta um cenário, cliente e situação de entrega diferentes.
-
-A campanha atual é:
+A campanha foi ampliada para **16 fases**. As fases 1–6 formam a campanha original; as fases 7–15 ampliam ambientes e mecânicas; a Fase 16 encerra o Capítulo 1 com o boss Gerentão.
 
 1. O Prédio — Tabacudo
 2. A Casa — Cleovasdo
@@ -28,10 +24,34 @@ A campanha atual é:
 4. O Centro Comercial — Jocelvânio
 5. O Shopping — Ubiratânio
 6. O Centro de Distribuição — Edivaldir
+7. O Bairro — Valdemarildo
+8. O Prédio Comercial — Claudecirvaldo
+9. A Central de Entregas — Geraldânio
+10. O Estacionamento — Valdovino
+11. O Hospital — Edivanildo
+12. A Escola — Professor Valdécio
+13. O Mercado — Osvaldirson
+14. A Obra — Jocelmar
+15. O Shopping — Ubiraldo
+16. A Última Entrega — Gerentão
 
-## Plataforma vertical e exploração
+## Nova mecânica — Cabeçada
 
-A primeira fase utiliza progressão vertical baseada em plataformas e escadas. As fases seguintes ampliam a exploração para ambientes e situações diferentes, mantendo o foco em movimentação, observação e resolução do problema de entrega.
+Shopi pode atingir com a cabeça determinados blocos interativos ao pular e tocar sua parte inferior.
+
+O bloco deve:
+
+- possuir indicação visual própria;
+- reagir com pequena animação/movimento;
+- emitir efeito sonoro;
+- gerar feedback visual discreto;
+- executar uma função específica.
+
+Os efeitos possíveis incluem pontos, revelação de itens ou pistas, abertura de passagem, ativação de mecanismos, movimentação de plataformas, alteração de esteiras e reações cômicas.
+
+A cabeçada funciona pelo salto normal, sem botão adicional, tanto no teclado quanto no touch. A colisão deve ser justa e protegida contra ativações repetidas involuntárias.
+
+A mecânica é introduzida progressivamente e passa a ser utilizada em combinação com outras mecânicas nas fases avançadas.
 
 ## Dificuldade
 
@@ -45,78 +65,75 @@ O jogo possui três níveis globais:
 
 Na Fase 1, **Entrega Tranquila não possui objetos caindo de cima**. Nos níveis superiores, os objetos lançados por Tabacudo fazem parte do desafio.
 
-A dificuldade também pode alterar comportamento, velocidade, frequência e tolerância de obstáculos ou clientes, preservando a identidade e a jogabilidade de cada fase.
+A dificuldade pode alterar comportamento, velocidade, frequência e tolerância dos obstáculos ou clientes, preservando a identidade de cada fase.
+
+## Áudio
+
+A nova camada audiovisual inclui efeitos sonoros para ações importantes, como:
+
+- pulo e aterrissagem;
+- escadas;
+- cabeçada;
+- coleta;
+- mecanismos;
+- checkpoint;
+- dano e perda de vida;
+- conclusão de fase;
+- Game Over;
+- ações de clientes/bosses;
+- conclusão do boss;
+- conclusão do capítulo.
+
+A direção sonora deve ser original, curta, cartunesca e coerente com o humor do jogo. Música ambiente pode variar entre fases normais, situações especiais e boss final. Música e efeitos devem possuir controle independente quando disponível.
+
+## Feedback visual
+
+A evolução audiovisual também utiliza, de forma moderada:
+
+- partículas;
+- animações de impacto;
+- reação dos blocos;
+- feedback de checkpoint;
+- feedback de dano;
+- feedback de vitória;
+- transições suaves;
+- comemoração no final do capítulo.
+
+O feedback não deve comprometer a legibilidade ou o desempenho.
 
 ## Fases específicas
 
-### Fase 1 — O Prédio
+### Fases 1–6
 
-Progressão vertical com plataformas, escadas e obstáculos associados a Tabacudo. O jogador sobe, supera os desafios, encontra Etvaldo e chega ao cliente.
+Mantêm a estrutura e a identidade da campanha original, agora integradas à evolução geral do jogo.
 
-### Fase 2 — A Casa
+### Fases 7–15
 
-Cleovasdo tenta devolver a encomenda e foge pela casa. A fase introduz perseguição em ambientes domésticos.
+Ampliam progressivamente exploração, orientação, mecanismos, plataformas móveis, rotas alternativas, timing e combinação de mecânicas. A cabeçada é utilizada de forma crescente para revelar pistas, ativar mecanismos e abrir caminhos.
 
-### Fase 3 — O Condomínio
+### Fase 16 — A Última Entrega
 
-Osvaldêncio cria bloqueios e restrições de circulação. O jogador precisa encontrar rotas alternativas para avançar.
+O Gerentão é o boss final do Capítulo 1. O desafio é dividido em três etapas: caminho com obstáculos, burocracia com mudanças sinalizadas e uso da cabeçada para ativar mecanismos.
 
-### Fase 4 — O Centro Comercial
+O confronto é não violento. O objetivo é realizar a entrega.
 
-Jocelvânio nunca está exatamente onde deveria estar. A fase explora localização e perseguição.
-
-### Fase 5 — O Shopping
-
-Ubiratânio fez um pedido absurdo. A situação de entrega gera o desafio específico da fase.
-
-### Fase 6 — O Centro de Distribuição
-
-Edivaldir quer trocar a encomenda. O jogador percorre um ambiente de logística e resolve a situação da troca.
+Ao concluir, aparece **CAPÍTULO 1 CONCLUÍDO!**, com resultados da campanha e teaser de possível continuação.
 
 ## Obstáculos
 
-Os obstáculos variam conforme o ambiente e a situação da fase. Na Fase 1 podem existir queda, rolagem e quique; na Fase 2 predominam elementos domésticos; nas fases seguintes os obstáculos devem refletir o cenário e a mecânica correspondente.
+Os obstáculos continuam variando conforme o ambiente e a situação da fase. A expansão prioriza variedade de situações e mecânicas em vez de apenas aumentar velocidade ou quantidade.
 
 ## Vidas e checkpoints
 
-O jogo utiliza vidas limitadas e checkpoint para reduzir repetição excessiva. Ao sofrer dano, o jogador recebe feedback e retorna a uma posição segura.
+O jogo utiliza vidas limitadas e checkpoints para reduzir repetição excessiva. O jogador recebe feedback ao sofrer dano e retorna a uma posição segura.
 
-## Pontuação
+## Pontuação e ranking
 
-A pontuação recompensa o desempenho durante a fase. O sistema pode considerar progresso, conclusão da entrega, ações especiais e outros eventos de gameplay já implementados.
-
-Os multiplicadores de dificuldade devem ser preservados quando aplicáveis.
-
-## Placar por fase e placar geral
-
-A próxima evolução do sistema de competição organiza a pontuação em dois níveis:
-
-### Placar por fase
-
-Cada uma das seis fases pode possuir um melhor resultado registrado para o jogador, associado à pontuação e à dificuldade utilizada.
-
-Quando o novo resultado for superior ao melhor resultado anterior naquela fase, ele substitui o recorde. Um resultado inferior não deve apagar o melhor resultado.
-
-### Placar geral
-
-O placar geral é calculado a partir da **soma das melhores pontuações do jogador nas seis fases**.
-
-A proposta é permitir:
-
-- acompanhar desempenho individual por fase;
-- comparar jogadores em cada etapa da campanha;
-- comparar o desempenho acumulado de toda a campanha;
-- identificar novos recordes.
-
-## Itens colecionáveis — planejado
-
-Permanece planejada uma mecânica com **2 itens colecionáveis por fase**, revelados pela exploração e pelo salto. Os itens devem conceder bônus de pontuação e funcionar em desktop e mobile.
-
-Essa mecânica não deve ser tratada como implementada até que seja validada em teste.
+A pontuação recompensa desempenho durante a fase. O sistema de ranking deve preservar os melhores resultados e acompanhar o desempenho por fase e na campanha geral conforme implementado.
 
 ## Mobile
 
-A experiência permanece funcional em telas menores e utiliza controles por toque para movimentação e salto.
+A experiência permanece funcional em telas menores. Movimentação, salto, escadas e cabeçada devem funcionar com os controles touch existentes.
 
 ## Filosofia de design
 
@@ -124,6 +141,6 @@ O jogo não depende de combate tradicional. O conflito nasce das dificuldades ab
 
 A sensação desejada é:
 
-> "Eu só queria fazer meu trabalho."
+> “Eu só queria fazer meu trabalho.”
 
-O jogo deve recompensar tentativa, observação, prática e exploração, mantendo objetivos claros e mecânicas diferentes para cada cliente.
+A campanha deve recompensar tentativa, observação, prática e exploração, mantendo objetivos claros e mecânicas diferentes para cada cliente.
