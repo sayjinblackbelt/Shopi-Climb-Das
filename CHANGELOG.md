@@ -1,23 +1,32 @@
 # Changelog
 
-## [Atual] — Campanha completa de 6 fases
+## [0.2.0] — Capítulo 1 expandido: 16 fases + áudio + cabeçada
 
-### Confirmado
-- Campanha com 6 fases jogáveis.
-- Teste da campanha completa pelo autor até o final da Fase 6.
-- Três níveis globais de dificuldade preservados em toda a campanha.
-- Shopi como protagonista e Etvaldo como dupla recorrente.
-- Seis clientes/bosses: Tabacudo, Cleovasdo, Osvaldêncio, Jocelvânio, Ubiratânio e Edivaldir.
-- Plataformas, escadas, salto, vidas, checkpoints e pontuação.
-- Controles para desktop e dispositivos móveis.
-- Ranking de líderes.
-- Progressão entre as seis fases.
+### Adicionado
+- Expansão da campanha de 6 para **16 fases**.
+- Dez novas fases, da Fase 7 à Fase 16.
+- Novos clientes: Valdemarildo, Claudecirvaldo, Geraldânio, Valdovino, Edivanildo, Professor Valdécio, Osvaldirson, Jocelmar, Ubiraldo e Gerentão.
+- Fase 16 como **boss final do Capítulo 1**.
+- Nova mecânica de **cabeçada em blocos interativos**.
+- Reação visual e sonora dos blocos atingidos.
+- Uso progressivo da cabeçada em pistas, mecanismos, plataformas, caminhos e desafios.
+- Efeitos sonoros para ações e eventos importantes do jogo.
+- Evolução do feedback visual e audiovisual.
+- Tela narrativa de conclusão do Capítulo 1.
+- Preparação da campanha para evolução futura por capítulos.
 
-### Próxima evolução
-- Placar por fase: melhor pontuação registrada em cada fase.
-- Placar geral: soma das melhores pontuações das seis fases.
-- Preservação do melhor recorde quando uma nova tentativa tiver pontuação inferior.
-- Registro da dificuldade utilizada em cada resultado.
+### Preservado
+- Shopi e Etvaldo.
+- As seis fases originais.
+- Três níveis de dificuldade.
+- Controles desktop e mobile.
+- Vidas e checkpoints.
+- Pontuação e ranking.
+- Identidade humorística do jogo.
+- Na Entrega Tranquila da Fase 1, ausência de objetos caindo de cima.
+
+### Validação
+A nova versão foi considerada funcional pelo autor após a implementação no Base44. A documentação registra a evolução; a validação contínua de regressão, mobile, áudio, dificuldades e campanha completa permanece parte do processo de qualidade.
 
 ## [0.1.4] — Fase 2: A Casa
 
@@ -25,7 +34,7 @@
 - Segunda fase jogável da campanha.
 - Cleovasdo como segundo cliente problemático.
 - Mecânica de perseguição do cliente.
-- Ambientes domésticos: jardim/garagem, sala, cozinha/corredor, segundo andar e varanda.
+- Ambientes domésticos.
 - Obstáculos domésticos e progressão da nova fase.
 - Integração da Fase 2 com os níveis de dificuldade existentes.
 - Final cômico envolvendo a devolução da encomenda.
@@ -33,13 +42,9 @@
 ## [0.1.3] — Sistema de dificuldade
 
 ### Adicionado
-- Três níveis globais de dificuldade:
-  - Entrega Tranquila — ×1.
-  - Entrega Complicada — ×1,5.
-  - Entrega Impossível — ×2.
+- Três níveis globais de dificuldade.
 - Ajuste real de quantidade, velocidade e comportamento dos obstáculos.
 - Na Entrega Tranquila da Fase 1, objetos não caem de cima.
-- Preservação dos controles desktop/mobile, ranking, vidas e checkpoint.
 
 ## [0.1.2] — Ranking
 
@@ -67,13 +72,14 @@
 
 ## Planejado
 
-- Implementar e testar itens colecionáveis: 2 por fase.
+- Itens colecionáveis: 2 por fase.
 - Coleção especial dos 6 pneus do caminhão.
 - Contador global de visitantes.
-- Refinamento de física, colisões, feedback visual e sonoro.
-- Melhorias de acessibilidade.
-- Conteúdo adicional além das 6 fases atuais.
+- Estatísticas de partidas.
+- Melhores tempos.
+- Melhorias adicionais de acessibilidade.
+- Capítulo 2.
 
 ---
 
-O projeto é desenvolvido de forma incremental, principalmente com o Base44. Cada alteração relevante deve ser registrada nos arquivos de prompts e neste changelog. Funcionalidades devem ser marcadas como concluídas somente após implementação e teste.
+O projeto é desenvolvido de forma incremental, principalmente com o Base44. Cada alteração relevante deve ser registrada nos arquivos de prompts e neste changelog. Funcionalidades devem ser marcadas como concluídas somente após implementação e validação.
