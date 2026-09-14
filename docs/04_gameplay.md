@@ -35,6 +35,21 @@ A campanha foi ampliada para **16 fases**. As fases 1–6 formam a campanha orig
 15. O Shopping — Ubiraldo
 16. A Última Entrega — Gerentão
 
+## Código da Entrega
+
+A partir da Fase 6, cada entrega pode apresentar um identificador simples para reforçar a sensação de logística real.
+
+Formato de referência:
+
+`SHP-06-EDV-4721`
+
+- `SHP` — Shopi;
+- `06` — número da fase;
+- `EDV` — identificação curta do cliente;
+- `4721` — identificador da encomenda.
+
+O código é principalmente um elemento de ambientação. Pode aparecer no início ou no resultado da entrega e, de forma pontual, em etiquetas, terminais ou outros elementos do cenário.
+
 ## Nova mecânica — Cabeçada
 
 Shopi pode atingir com a cabeça determinados blocos interativos ao pular e tocar sua parte inferior.
@@ -110,6 +125,12 @@ Mantêm a estrutura e a identidade da campanha original, agora integradas à evo
 ### Fases 7–15
 
 Ampliam progressivamente exploração, orientação, mecanismos, plataformas móveis, rotas alternativas, timing e combinação de mecânicas. A cabeçada é utilizada de forma crescente para revelar pistas, ativar mecanismos e abrir caminhos.
+
+### Fase 11 — O Hospital
+
+Durante o teste do ciclo de melhorias de 14/09/2026 foi identificado um ponto em que o salto entre duas partes do cenário não é possível. A correção está registrada como pendência para o próximo ciclo: reduzir o espaço entre as partes ou inserir um ponto de apoio/plataforma intermediária.
+
+A intenção é manter o desafio sem criar um bloqueio impossível.
 
 ### Fase 16 — A Última Entrega
 
