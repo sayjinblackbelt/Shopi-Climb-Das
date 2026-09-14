@@ -14,6 +14,12 @@
 
 O portal GitHub Pages apresenta o jogo, documentação, navegação em três idiomas e contador global de visitantes.
 
+## 📅 Publicação
+
+**Data oficial de publicação do jogo:** **04/09/2026**.
+
+O projeto foi publicado inicialmente como um MVP e evoluiu de forma incremental até a campanha atual de 20 fases.
+
 ## 🧾 Sobre o projeto
 
 **Shopi — Entregas Impossíveis** é um projeto independente desenvolvido incrementalmente com Base44 e documentado no GitHub.
@@ -103,6 +109,8 @@ Durante o ciclo de melhorias de 14/09/2026, foi identificada uma pendência na *
 
 O portal GitHub Pages possui agora um contador global de visitantes, independente do ranking do jogo.
 
+**Marco registrado:** 151 visitantes em 14/09/2026.
+
 ## 📁 Documentação
 
 - [Conceito](docs/01_conceito.md)
@@ -134,8 +142,10 @@ O portal GitHub Pages possui agora um contador global de visitantes, independent
 ## 📊 Status
 
 **Capítulo 1:** 20 fases implementadas.  
+**Publicação oficial:** 04/09/2026.  
 **Mobile:** controles funcionando bem.  
 **Fluxo de campanha:** funcional após correções.  
+**Visitantes:** 151 registrados em 14/09/2026.  
 **Próxima correção registrada:** Fase 11, salto impossível.  
 **Próximo ciclo:** balanceamento, refinamento e testes das 20 fases.
 
