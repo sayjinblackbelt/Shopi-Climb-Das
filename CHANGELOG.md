@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.2.2] — 14/09/2026 — Campanha atualizada para 20 fases
+
+### Atualizado
+- Documentação principal sincronizada com o estado real informado pelo autor: **20 fases implementadas no Capítulo 1**.
+- Fases 17–20 registradas na documentação:
+  - 17 — A Estação;
+  - 18 — O Hotel;
+  - 19 — O Parque de Diversões;
+  - 20 — A Garagem da Shopi.
+- Portal GitHub Pages atualizado de 16 para 20 fases.
+- README em português, inglês e espanhol atualizado para 20 fases.
+- Foco do próximo ciclo ajustado de expansão da campanha para refinamento, balanceamento e testes das 20 fases existentes.
+
+### Pendência mantida
+- **Fase 11 — O Hospital:** existe um ponto em que o salto entre duas partes do cenário não é possível. A correção prevista é reduzir a distância ou inserir um ponto de apoio/plataforma intermediária.
+
+### Verificação do repositório
+- Estrutura do repositório revisada.
+- Arquivos principais de documentação e portal conferidos.
+- Links para o jogo, GitHub Pages e documentação mantidos.
+- A página pública do jogo responde atualmente, mas o conector web não permite executar a jogabilidade interativa do Base44; portanto, esta revisão não declara teste manual completo das 20 fases no navegador.
+
 ## [0.2.1] — 14/09/2026 — Fluxo, gameplay e identidade das entregas
 
 ### Corrigido
