@@ -2,11 +2,11 @@
 
 ## Estrutura da campanha
 
-A campanha acompanha Shopi e Etvaldo em diferentes tipos de entrega. Cada fase muda o ambiente e apresenta um cliente problemático com uma situação própria.
+A campanha acompanha Shopi e Etvaldo em diferentes tipos de entrega. Cada fase muda o ambiente e apresenta uma situação própria.
 
-**Status atual:** a campanha foi expandida de 6 para **16 fases**, incluindo 10 novas fases e um boss final para o Capítulo 1.
+**Status atual:** a campanha possui **20 fases implementadas no Capítulo 1**. As fases 1–16 formam o núcleo original expandido e as fases 17–20 completam o arco atual, com encerramento na garagem da Shopi.
 
-| Fase | Local | Cliente | Problema / mecânica principal |
+| Fase | Local | Cliente / situação | Problema / mecânica principal |
 |---|---|---|---|
 | 1 | Prédio | Tabacudo | Reclama de tudo |
 | 2 | Casa | Cleovasdo | Quer devolver a encomenda / perseguição |
@@ -23,7 +23,11 @@ A campanha acompanha Shopi e Etvaldo em diferentes tipos de entrega. Cada fase m
 | 13 | Mercado | Osvaldirson | Navegação em ambiente congestionado |
 | 14 | Obra | Jocelmar | Plataformas e timing |
 | 15 | Shopping | Ubiraldo | Exploração e combinação de mecânicas |
-| 16 | A Última Entrega | Gerentão | Boss final do Capítulo 1 |
+| 16 | A Última Entrega | Gerentão | Boss final do arco de burocracia |
+| 17 | A Estação | — | Rotas e plataformas |
+| 18 | O Hotel | — | Encontrar andar e quarto |
+| 19 | O Parque de Diversões | — | Plataformas móveis e caminhos imprevisíveis |
+| 20 | A Garagem da Shopi | — | Epílogo e encerramento do Capítulo 1 |
 
 ## Fases 1–6 — campanha original
 
@@ -91,6 +95,8 @@ Blocos interativos podem revelar números, setas e mapas.
 
 O desafio é localizar o setor correto em um ambiente com corredores, escadas, elevadores e áreas restritas. O humor permanece concentrado na burocracia e na situação de entrega.
 
+**Pendência atual:** foi identificado um ponto em que o salto entre duas partes do cenário não é possível. A correção prevista para o próximo ciclo é reduzir o espaço entre as partes ou inserir um ponto de apoio/plataforma intermediária.
+
 ## Fase 12 — A Escola
 
 **Cliente:** Professor Valdécio.
@@ -121,7 +127,7 @@ A cabeçada passa a ser utilizada de maneira mais integrada, mas não deve torna
 
 ## Fase 16 — A Última Entrega
 
-**Boss final:** Gerentão.
+**Boss:** Gerentão.
 
 O Gerentão representa a burocracia absoluta das entregas.
 
@@ -137,7 +143,31 @@ Final cômico:
 
 > “Está faltando a assinatura.”
 
-Depois da conclusão, o jogo apresenta **CAPÍTULO 1 CONCLUÍDO!**, resultados da campanha e um teaser para uma possível continuação.
+## Fase 17 — A Estação
+
+A campanha continua após o núcleo do boss final com uma fase de rotas e plataformas, reforçando orientação e leitura do ambiente.
+
+## Fase 18 — O Hotel
+
+Fase centrada na identificação do andar e do quarto corretos, mantendo a lógica de exploração e entrega.
+
+## Fase 19 — O Parque de Diversões
+
+Fase de plataformas móveis e caminhos imprevisíveis, aumentando a exigência de leitura de movimento e timing.
+
+## Fase 20 — A Garagem da Shopi
+
+Epilogo do Capítulo 1. Não é outro boss: funciona como encerramento narrativo e preparação para uma eventual continuação.
+
+Final:
+
+> Etvaldo: “Acabou?”
+>
+> Shopi: “Acabou.”
+>
+> **Telefone:** “Nova entrega disponível.”
+
+O Capítulo 1 é encerrado com a gag final e espaço para uma futura continuação.
 
 ## Nova mecânica — Cabeçada
 
@@ -158,6 +188,10 @@ A mecânica funciona pelo salto normal em desktop e mobile. Não há botão espe
 
 A colisão deve ser justa e possuir proteção contra ativações repetidas involuntárias.
 
+## Código da Entrega
+
+A partir da **Fase 6**, as entregas podem apresentar um código simples de identificação logística, por exemplo `SHP-06-EDV-4721`. A função é principalmente atmosférica, reforçando a sensação de uma operação de entrega real sem criar um sistema complexo.
+
 ## Itens colecionáveis — planejado
 
 A proposta anterior de 2 itens por fase e coleção dos seis pneus permanece registrada como evolução independente. A existência dos colecionáveis deve ser documentada como implementada somente após confirmação específica de teste no jogo.
@@ -167,7 +201,7 @@ A proposta anterior de 2 itens por fase e coleção dos seis pneus permanece reg
 Cada fase deve responder a quatro perguntas:
 
 1. Onde está sendo feita a entrega?
-2. Quem é o cliente?
+2. Quem é o cliente ou qual é a situação?
 3. Qual é o problema da entrega?
 4. Qual mecânica representa esse problema?
 
