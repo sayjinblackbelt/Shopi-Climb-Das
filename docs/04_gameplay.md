@@ -4,7 +4,7 @@
 
 A experiência segue o ciclo:
 
-**Receber entrega → entrar no local → superar obstáculos → explorar/usar mecanismos → localizar ou resolver o problema → encontrar o cliente → concluir a entrega → avançar na campanha**
+**Receber entrega → entrar no local → superar obstáculos → explorar/usar mecanismos → localizar ou resolver o problema → encontrar o cliente/situação → concluir a entrega → avançar na campanha**
 
 ## Movimentação
 
@@ -16,7 +16,7 @@ A experiência funciona em desktop e dispositivos móveis.
 
 ## Campanha
 
-A campanha foi ampliada para **16 fases**. As fases 1–6 formam a campanha original; as fases 7–15 ampliam ambientes e mecânicas; a Fase 16 encerra o Capítulo 1 com o boss Gerentão.
+A campanha atual possui **20 fases implementadas no Capítulo 1**. As fases 1–16 formam o núcleo expandido da campanha; as fases 17–20 ampliam o arco até o encerramento na garagem da Shopi.
 
 1. O Prédio — Tabacudo
 2. A Casa — Cleovasdo
@@ -34,6 +34,10 @@ A campanha foi ampliada para **16 fases**. As fases 1–6 formam a campanha orig
 14. A Obra — Jocelmar
 15. O Shopping — Ubiraldo
 16. A Última Entrega — Gerentão
+17. A Estação — rotas e plataformas
+18. O Hotel — andar e quarto corretos
+19. O Parque de Diversões — plataformas móveis e caminhos imprevisíveis
+20. A Garagem da Shopi — epílogo do Capítulo 1
 
 ## Código da Entrega
 
@@ -84,7 +88,7 @@ A dificuldade pode alterar comportamento, velocidade, frequência e tolerância 
 
 ## Áudio
 
-A nova camada audiovisual inclui efeitos sonoros para ações importantes, como:
+A camada audiovisual inclui efeitos sonoros para ações importantes, como:
 
 - pulo e aterrissagem;
 - escadas;
@@ -134,11 +138,18 @@ A intenção é manter o desafio sem criar um bloqueio impossível.
 
 ### Fase 16 — A Última Entrega
 
-O Gerentão é o boss final do Capítulo 1. O desafio é dividido em três etapas: caminho com obstáculos, burocracia com mudanças sinalizadas e uso da cabeçada para ativar mecanismos.
+O Gerentão é o boss final do núcleo original do Capítulo 1. O desafio é dividido em três etapas: caminho com obstáculos, burocracia com mudanças sinalizadas e uso da cabeçada para ativar mecanismos.
 
 O confronto é não violento. O objetivo é realizar a entrega.
 
-Ao concluir, aparece **CAPÍTULO 1 CONCLUÍDO!**, com resultados da campanha e teaser de possível continuação.
+Ao concluir, aparece **CAPÍTULO 1 CONCLUÍDO!**, com resultados da campanha e teaser de possível continuação. As fases 17–20 atualmente registradas ampliam a campanha até seu epílogo.
+
+### Fases 17–20
+
+- **Fase 17 — A Estação:** rotas e plataformas.
+- **Fase 18 — O Hotel:** localização do andar/quarto.
+- **Fase 19 — O Parque de Diversões:** plataformas móveis e caminhos imprevisíveis.
+- **Fase 20 — A Garagem da Shopi:** epílogo e encerramento do Capítulo 1.
 
 ## Obstáculos
 
@@ -164,4 +175,4 @@ A sensação desejada é:
 
 > “Eu só queria fazer meu trabalho.”
 
-A campanha deve recompensar tentativa, observação, prática e exploração, mantendo objetivos claros e mecânicas diferentes para cada cliente.
+A campanha deve recompensar tentativa, observação, prática e exploração, mantendo objetivos claros e mecânicas diferentes para cada situação.
