@@ -1,5 +1,42 @@
 # Changelog
 
+## [0.2.1] — 14/09/2026 — Fluxo, gameplay e identidade das entregas
+
+### Corrigido
+- Progressão entre fases e desbloqueio/seleção de fases.
+- Continuação da campanha.
+- Pausa com continuar, reiniciar, configurações e sair.
+- Game Over com recuperação e seleção de fase.
+- Fluxo de conclusão de fase e acesso à próxima fase.
+- Proteção contra conclusão prematura do Capítulo 1.
+- Conclusão correta da campanha na Fase 16.
+
+### Melhorado
+- Sensação de movimentação e resposta do salto.
+- Leitura de plataformas e caminhos.
+- Ritmo e progressão de dificuldade.
+- Feedback visual e sonoro.
+- Câmera, checkpoints e pontuação.
+- Interação dos blocos de cabeçada.
+- Identidade dos clientes e relação Shopi/Etvaldo.
+- Preservação dos controles mobile já funcionais.
+
+### Adicionado
+- **Código da Entrega** a partir da Fase 6, com formato de referência como `SHP-06-EDV-4721`.
+- Documentação específica do ciclo de melhorias de 14/09/2026 em português, inglês e espanhol.
+- Contador global de visitantes no portal GitHub Pages.
+
+### Pendência identificada no teste
+- **Fase 11 — O Hospital:** existe um ponto em que o salto entre duas partes do cenário não é possível. Para o próximo ciclo, reduzir a distância ou inserir um ponto de apoio/plataforma intermediária.
+
+### Validação
+O fluxo crítico foi considerado funcional pelo autor. As melhorias gerais foram implementadas e testadas, e a Fase 11 ficou registrada como pendência específica para correção posterior.
+
+### Documentação
+- [Histórico 14/09/2026 — Português](docs/11_historico_2026-09-14.md)
+- [Improvement History 2026-09-14 — English](docs/11_history_2026-09-14.md)
+- [Historial de mejoras 14/09/2026 — Español](docs/11_historial_2026-09-14.md)
+
 ## [0.2.0] — Capítulo 1 expandido: 16 fases + áudio + cabeçada
 
 ### Adicionado
@@ -74,7 +111,6 @@ A nova versão foi considerada funcional pelo autor após a implementação no B
 
 - Itens colecionáveis: 2 por fase.
 - Coleção especial dos 6 pneus do caminhão.
-- Contador global de visitantes.
 - Estatísticas de partidas.
 - Melhores tempos.
 - Melhorias adicionais de acessibilidade.
