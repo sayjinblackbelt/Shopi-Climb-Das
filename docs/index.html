@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Shopi — Entregas Impossíveis: jogo arcade 2D de plataforma vertical.">
   <title>Shopi — Entregas Impossíveis</title>
+  <script src="https://counterapi.com/c.js?ns=sayjinblackbelt.github.io%2FShopi-Climb-Das" async></script>
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
@@ -13,6 +14,8 @@
     header { text-align: center; padding: 20px 12px 28px; }
     h1 { font-size: clamp(2.4rem, 8vw, 5rem); margin: 0 0 8px; }
     .tagline { font-size: clamp(1rem, 2.5vw, 1.3rem); line-height: 1.6; margin: 0 auto; max-width: 720px; }
+    .languages { margin-top: 12px; font-size: .9rem; opacity: .9; }
+    .languages a { color: #fff; margin: 0 6px; }
     .game-card, .panel { background: rgba(0,0,0,.28); border: 1px solid rgba(255,255,255,.16); border-radius: 18px; box-shadow: 0 18px 50px rgba(0,0,0,.2); }
     .game-card { padding: 14px; }
     .game-frame { width: 100%; aspect-ratio: 16 / 9; min-height: 420px; border: 0; border-radius: 12px; background: #11181b; display: block; }
@@ -24,6 +27,8 @@
     .panel h2 { margin-top: 0; }
     .status-list { list-style: none; padding: 0; margin: 0; }
     .status-list li { margin: 7px 0; }
+    .visitor-card { text-align: center; margin-top: 18px; }
+    .visitor-card .counterapi { min-height: 44px; display: flex; justify-content: center; align-items: center; }
     footer { text-align: center; margin-top: 30px; opacity: .78; font-size: .9rem; }
     @media (max-width: 700px) { main { width: min(96%, 1100px); padding-top: 12px; } .game-frame { aspect-ratio: 9 / 16; min-height: 560px; } }
   </style>
@@ -33,6 +38,9 @@
     <header>
       <h1>📦 Shopi</h1>
       <p class="tagline"><strong>Entregas Impossíveis</strong><br>Shopi não quer salvar o mundo. Ele só quer terminar a entrega.</p>
+      <nav class="languages" aria-label="Idiomas">
+        <strong>🇧🇷 Português</strong> · <a href="README.en.md">🇺🇸 English</a> · <a href="README.es.md">🇪🇸 Español</a>
+      </nav>
     </header>
 
     <section class="game-card" aria-label="Jogo Shopi">
@@ -43,13 +51,19 @@
       </div>
     </section>
 
-    <section class="grid">
-      <article class="panel"><h2>🎮 O jogo</h2><p>Uma aventura arcade de entregas em que cada cliente pode transformar uma simples entrega em um problema absurdo.</p><p><strong>6 fases · 6 clientes · Shopi + Etvaldo · plataformas · escadas · pulos · vidas · checkpoints</strong></p></article>
-      <article class="panel"><h2>🏆 Estado atual</h2><ul class="status-list"><li>🟢 6/6 fases jogáveis</li><li>🟢 3 níveis de dificuldade</li><li>🟢 Desktop + Mobile</li><li>🟢 Ranking existente</li><li>🟢 Vidas, checkpoints e pontuação</li><li>🟡 Placar por fase + geral — próxima evolução</li><li>⚪ Colecionáveis — planejado</li></ul></article>
-      <article class="panel"><h2>📚 Projeto</h2><p>O GitHub registra conceito, personagens, fases, gameplay, clientes, ranking, métricas, Base44, roadmap e os prompts usados na evolução incremental.</p><a class="button secondary" href="https://github.com/sayjinblackbelt/Shopi-Climb-Das" target="_blank" rel="noopener">Ver documentação</a></article>
+    <section class="visitor-card panel" aria-label="Contador de visitantes">
+      <h2>👥 Visitantes</h2>
+      <div class="counterapi"></div>
+      <p>Contador global do portal GitHub Pages.</p>
     </section>
 
-    <footer>Projeto independente de Filipe G Morais · Desenvolvido incrementalmente com Base44</footer>
+    <section class="grid">
+      <article class="panel"><h2>🎮 O jogo</h2><p>Uma aventura arcade de entregas em que cada cliente pode transformar uma simples entrega em um problema absurdo.</p><p><strong>16 fases · 16 clientes · Shopi + Etvaldo · plataformas · escadas · pulos · vidas · checkpoints · cabeçada</strong></p></article>
+      <article class="panel"><h2>🏆 Estado atual</h2><ul class="status-list"><li>🟢 16 fases do Capítulo 1</li><li>🟢 3 níveis de dificuldade</li><li>🟢 Desktop + Mobile</li><li>🟢 Ranking existente</li><li>🟢 Vidas, checkpoints e pontuação</li><li>🟢 Cabeçada em blocos interativos</li><li>🟢 Áudio e feedback audiovisual</li><li>🟡 Melhorias de balanceamento em evolução</li></ul></article>
+      <article class="panel"><h2>📚 Projeto</h2><p>O GitHub registra conceito, personagens, fases, gameplay, clientes, ranking, métricas, Base44, roadmap, histórico e os prompts usados na evolução incremental.</p><a class="button secondary" href="https://github.com/sayjinblackbelt/Shopi-Climb-Das" target="_blank" rel="noopener">Ver documentação</a></article>
+    </section>
+
+    <footer>Projeto independente de Filipe G Morais · Desenvolvido incrementalmente com Base44 · Documentação em Português, English e Español</footer>
   </main>
 </body>
 </html>
