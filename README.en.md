@@ -24,7 +24,7 @@ The game combines vertical platforming, ladders, obstacles, exploration, mechani
 
 ## 🗺️ Chapter 1
 
-The current Chapter 1 campaign contains **16 levels**, from the Building to the final Gerentão encounter.
+The current Chapter 1 campaign contains **20 implemented levels**.
 
 1. The Building — Tabacudo
 2. The House — Cleovasdo
@@ -42,12 +42,16 @@ The current Chapter 1 campaign contains **16 levels**, from the Building to the 
 14. The Construction Site — Jocelmar
 15. The Mall — Ubiraldo
 16. The Last Delivery — Gerentão
+17. The Station — route and platform navigation
+18. The Hotel — finding the correct floor/room
+19. The Amusement Park — moving platforms and unpredictable paths
+20. Shopi's Garage — epilogue and Chapter 1 closure
 
 ## 🎮 Current gameplay
 
 The game includes:
 
-- 16 Chapter 1 levels;
+- **20 implemented Chapter 1 levels**;
 - 3 difficulty levels;
 - platforms, ladders and jumping;
 - lives and checkpoints;
@@ -85,13 +89,13 @@ The project follows:
 
 **Idea → Prompt → Base44 → Implementation → Test → Feedback → Adjustment → GitHub record**
 
-The critical progression, menu, pause, Game Over and level-completion flow was considered functional by the author.
+The critical progression, menu, pause, Game Over and level-completion flow was considered functional by the author. The current state is a **20-level implemented campaign**, now moving into refinement and balance work.
 
 During the 2026-09-14 improvement cycle, a pending issue was identified in **Level 11 — The Hospital**: a jump between two sections of the level is currently impossible. The planned fix is to reduce the gap or add an intermediate support/platform.
 
 ## 👥 Visitor counter
 
-The GitHub Pages portal now includes a global visitor counter, independent from the game's leaderboard.
+The GitHub Pages portal includes a global visitor counter, independent from the game's leaderboard.
 
 ## 📁 Documentation
 
@@ -112,10 +116,11 @@ The GitHub Pages portal now includes a global visitor counter, independent from 
 
 ## 📊 Status
 
-**Chapter 1:** 16 levels.  
+**Chapter 1:** 20 implemented levels.  
 **Mobile:** controls working well.  
 **Campaign flow:** functional after corrections.  
-**Next registered fix:** Level 11, impossible jump.
+**Next registered fix:** Level 11, impossible jump.  
+**Next cycle:** balance, polish and testing across all 20 levels.
 
 ## 👨‍💻 Author
 
