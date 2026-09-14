@@ -6,60 +6,62 @@
 - [x] Criação do protagonista Shopi.
 - [x] Criação do ajudante Etvaldo.
 - [x] Definição dos clientes problemáticos como bosses.
-- [x] Tabacudo como primeiro cliente.
 - [x] MVP da primeira fase.
 - [x] Controles para desktop.
 - [x] Controles por toque para celular.
 - [x] Ranking de líderes.
 - [x] Sistema de três níveis de dificuldade.
 - [x] Ajuste do nível fácil da Fase 1 para não receber objetos caindo de cima.
-- [x] Fase 2 — A Casa / Cleovasdo.
-- [x] Fase 3 — O Condomínio / Osvaldêncio.
-- [x] Fase 4 — O Centro Comercial / Jocelvânio.
-- [x] Fase 5 — O Shopping / Ubiratânio.
-- [x] Fase 6 — O Centro de Distribuição / Edivaldir.
-- [x] Campanha completa com 6 fases jogáveis.
-- [x] Teste da campanha completa até o final.
+- [x] Fases 1–6 da campanha original.
+- [x] Expansão das fases 7–16 e boss Gerentão.
+- [x] Fases 17–20 e encerramento atual do Capítulo 1.
+- [x] Mecânica de cabeçada em blocos interativos.
+- [x] Áudio e feedback audiovisual.
+- [x] Código da Entrega a partir da Fase 6.
+- [x] Fluxo de campanha, progressão, pausa, Game Over e conclusão de fases após correções.
 - [x] Portal do projeto no GitHub Pages preparado em `/docs`.
 - [x] Portal integrado com tentativa de incorporação direta do jogo e fallback para nova aba.
-- [x] Página inicial organizada como portal oficial do projeto.
-- [x] Diário estruturado para testes com alunos.
+- [x] Contador global de visitantes no portal.
+- [x] Documentação trilíngue e histórico de melhorias.
 
-## 🟡 Próxima etapa
+## 🟡 Próxima etapa — qualidade da campanha atual
 
-- [ ] Habilitar/publicar o GitHub Pages nas configurações do repositório.
-- [ ] Confirmar carregamento do jogo incorporado no GitHub Pages.
-- [ ] Implementar e testar placar por fase no Base44.
-- [ ] Implementar e testar placar geral da campanha no Base44.
-- [ ] Garantir persistência e substituição correta dos melhores resultados.
-- [ ] Realizar primeira rodada de testes com alunos.
-- [ ] Corrigir problemas encontrados nos testes.
-- [ ] Refinar física e colisões.
+- [ ] Corrigir o salto impossível da Fase 11 — reduzir o espaço ou inserir ponto de apoio/plataforma.
+- [ ] Fazer revisão de balanceamento das 20 fases.
+- [ ] Verificar ritmo e dificuldade entre fases consecutivas.
+- [ ] Revisar colisões e pontos de apoio nas plataformas.
 - [ ] Revisar comportamento das escadas.
-- [ ] Refinar feedback visual e sonoro.
+- [ ] Revisar checkpoints, vidas e recuperação.
+- [ ] Revisar feedback visual e sonoro sem prejudicar legibilidade.
+- [ ] Testar regressão da campanha 1→20 no Base44.
+- [ ] Testar desktop e mobile durante a revisão.
+- [ ] Registrar cada correção validada no GitHub.
 
-## 🔵 Sistemas planejados
+## 🔵 Sistemas planejados / evolução posterior
 
-- [ ] Itens colecionáveis: 2 por fase.
+- [ ] Itens colecionáveis: 2 por fase, após confirmação de implementação e teste.
 - [ ] Coleção especial dos 6 pneus do caminhão.
-- [ ] Contador global de visitantes.
 - [ ] Estatísticas de partidas.
 - [ ] Melhores tempos.
+- [ ] Melhorias adicionais de acessibilidade.
+- [ ] Evoluções de ranking e métricas, conforme necessidade.
 
 ## 🟣 Expansão futura
 
 - [ ] Novos tipos de obstáculos.
 - [ ] Novos comportamentos de clientes.
-- [ ] Melhorias de acessibilidade.
 - [ ] Refinamento visual dos personagens.
-- [ ] Identidade sonora própria.
-- [ ] Conteúdo adicional além das 6 fases atuais.
+- [ ] Novos recursos de acessibilidade.
+- [ ] Conteúdo adicional além do Capítulo 1.
+- [ ] Capítulo 2.
 
 ## Princípio de priorização
 
-Priorizar primeiro problemas que afetam a diversão e a conclusão das fases. Depois ampliar conteúdo e mecânicas centrais e, por último, adicionar sistemas periféricos.
+A campanha atual já possui **20 fases implementadas**. O foco não é adicionar fases imediatamente, mas garantir que o conteúdo existente esteja divertido, justo, consistente e tecnicamente estável.
 
-O desenvolvimento segue ciclos curtos de implementação e teste:
+Priorizar primeiro problemas que afetam a conclusão das fases ou criam situações impossíveis. Depois balancear ritmo, dificuldade, colisões, feedback e acessibilidade. Só então ampliar sistemas periféricos ou iniciar novo conteúdo.
+
+O desenvolvimento segue ciclos curtos:
 
 **Ideia → Prompt → Base44 → Teste → Feedback → Ajuste → Registro no GitHub**.
 
