@@ -24,13 +24,13 @@ El juego combina plataformas verticales, escaleras, obstáculos, exploración, m
 
 ## 🗺️ Capítulo 1
 
-La campaña actual del Capítulo 1 contiene **16 fases**, desde El Edificio hasta el enfrentamiento final con Gerentão.
+La campaña actual del Capítulo 1 contiene **20 fases implementadas**.
 
 1. El Edificio — Tabacudo
 2. La Casa — Cleovasdo
 3. El Condominio — Osvaldêncio
 4. El Centro Comercial — Jocelvânio
-5. El Centro Comercial Grande — Ubiratânio
+5. El Shopping — Ubiratânio
 6. El Centro de Distribución — Edivaldir
 7. El Barrio — Valdemarildo
 8. El Edificio Comercial — Claudecirvaldo
@@ -40,14 +40,18 @@ La campaña actual del Capítulo 1 contiene **16 fases**, desde El Edificio hast
 12. La Escuela — Professor Valdécio
 13. El Mercado — Osvaldirson
 14. La Obra — Jocelmar
-15. El Centro Comercial — Ubiraldo
+15. El Shopping — Ubiraldo
 16. La Última Entrega — Gerentão
+17. La Estación — rutas y plataformas
+18. El Hotel — encontrar piso/habitación
+19. El Parque de Diversiones — plataformas móviles y caminos imprevisibles
+20. El Garaje de Shopi — epílogo y cierre del Capítulo 1
 
 ## 🎮 Gameplay actual
 
 El juego incluye:
 
-- 16 fases del Capítulo 1;
+- **20 fases implementadas del Capítulo 1**;
 - 3 niveles de dificultad;
 - plataformas, escaleras y salto;
 - vidas y checkpoints;
@@ -61,7 +65,7 @@ El juego incluye:
 
 ### Cabezazo
 
-Shopi puede saltar y golpear determinados bloques interactivos desde abajo. Pueden revelar puntos, pistas o objetos, abrir caminos o activar mecanismos.
+Shopi puede saltar y golpear determinados bloques interactivos desde abajo. Pueden revelar puntos, pistas u objetos, abrir caminos o activar mecanismos.
 
 ### Código de Entrega
 
@@ -85,13 +89,13 @@ El proyecto sigue:
 
 **Idea → Prompt → Base44 → Implementación → Prueba → Feedback → Ajuste → Registro en GitHub**
 
-El flujo crítico de progresión, menús, pausa, Game Over y finalización de fases fue considerado funcional por el autor.
+El flujo crítico de progresión, menús, pausa, Game Over y finalización de fases fue considerado funcional por el autor. El estado actual es una **campaña de 20 fases implementadas**, entrando ahora en ciclo de refinamiento y balance.
 
 Durante el ciclo de mejoras del 14/09/2026 se identificó un pendiente en la **Fase 11 — El Hospital**: actualmente un salto entre dos partes de la fase no es posible. La corrección prevista es reducir la distancia o añadir un punto de apoyo/plataforma intermedia.
 
 ## 👥 Contador de visitantes
 
-El portal GitHub Pages ahora incluye un contador global de visitantes, independiente de la clasificación del juego.
+El portal GitHub Pages incluye un contador global de visitantes, independiente de la clasificación del juego.
 
 ## 📁 Documentación
 
@@ -112,10 +116,11 @@ El portal GitHub Pages ahora incluye un contador global de visitantes, independi
 
 ## 📊 Estado
 
-**Capítulo 1:** 16 fases.  
+**Capítulo 1:** 20 fases implementadas.  
 **Móvil:** controles funcionando bien.  
 **Flujo de campaña:** funcional después de las correcciones.  
-**Próxima corrección registrada:** Fase 11, salto imposible.
+**Próxima corrección registrada:** Fase 11, salto imposible.  
+**Próximo ciclo:** balance, refinamiento y pruebas de las 20 fases.
 
 ## 👨‍💻 Autor
 
