@@ -47,13 +47,17 @@ A proposta combina plataforma vertical, escadas, obstáculos, exploração, meca
 | 13 | O Mercado | Osvaldirson | Ambiente congestionado |
 | 14 | A Obra | Jocelmar | Plataformas e timing |
 | 15 | O Shopping | Ubiraldo | Exploração e combinação |
-| 16 | A Última Entrega | Gerentão | **Boss final** |
+| 16 | A Última Entrega | Gerentão | Boss final |
+| 17 | A Estação | — | Rotas e plataformas |
+| 18 | O Hotel | — | Encontrar andar/quarto |
+| 19 | O Parque de Diversões | — | Plataformas móveis e caminhos imprevisíveis |
+| 20 | A Garagem da Shopi | — | Epílogo e encerramento do Capítulo 1 |
 
 ## 🎮 Gameplay atual
 
 O jogo possui:
 
-- 16 fases no Capítulo 1;
+- **20 fases implementadas no Capítulo 1**;
 - 3 níveis de dificuldade;
 - plataformas, escadas e salto;
 - vidas e checkpoints;
@@ -91,7 +95,7 @@ O projeto segue:
 
 **Ideia → Prompt → Base44 → Implementação → Teste → Feedback → Ajuste → Registro no GitHub**
 
-A correção crítica de progressão, menus, pausa, Game Over e conclusão de fases foi considerada funcional pelo autor.
+O fluxo crítico de progressão, menus, pausa, Game Over e conclusão de fases foi considerado funcional pelo autor. A versão atual deve ser tratada como uma campanha de **20 fases implementadas**, com foco agora em refinamento e balanceamento.
 
 Durante o ciclo de melhorias de 14/09/2026, foi identificada uma pendência na **Fase 11 — O Hospital**: existe um ponto em que um salto entre duas partes do cenário não é possível. A correção prevista é reduzir o espaço ou inserir um ponto de apoio/plataforma intermediária.
 
@@ -125,14 +129,15 @@ O portal GitHub Pages possui agora um contador global de visitantes, independent
 - [Fase 2](prompts/05_fase_2_casa.md)
 - [Dificuldade](prompts/06_dificuldade.md)
 - [Placar por fases e geral](prompts/08_placar_fases_geral.md)
-- [Capítulo 1, áudio e cabeçada](prompts/09_capitulo_1_16_fases_audio.md)
+- [Capítulo 1, áudio e cabeçada](prompts/09_capitulo_1_16_fases_audio.md) — registro histórico da expansão até a Fase 16.
 
 ## 📊 Status
 
-**Capítulo 1:** 16 fases.  
+**Capítulo 1:** 20 fases implementadas.  
 **Mobile:** controles funcionando bem.  
 **Fluxo de campanha:** funcional após correções.  
-**Próxima correção registrada:** Fase 11, salto impossível.
+**Próxima correção registrada:** Fase 11, salto impossível.  
+**Próximo ciclo:** balanceamento, refinamento e testes das 20 fases.
 
 ## 👨‍💻 Autor
 
