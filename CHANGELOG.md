@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.2.3] — 14/09/2026 — Marco de 151 visitantes
+
+### Marco
+- O portal GitHub Pages atingiu **151 visitantes**.
+- O número foi registrado como marco atual de audiência do projeto.
+- O contador refere-se ao portal GitHub Pages e é independente do ranking interno do jogo.
+
+### Estado atual
+- **20 fases implementadas** no Capítulo 1.
+- Fluxo de campanha funcional após as correções anteriores.
+- Controles mobile funcionando bem.
+- Código da Entrega a partir da Fase 6.
+- Contador global ativo no portal GitHub Pages.
+- Próximo ciclo concentrado em balanceamento, refinamento e testes das 20 fases.
+
+### Pendência mantida
+- **Fase 11 — O Hospital:** existe um ponto em que o salto entre duas partes do cenário não é possível. A correção prevista é reduzir a distância ou inserir um ponto de apoio/plataforma intermediária.
+
 ## [0.2.2] — 14/09/2026 — Campanha atualizada para 20 fases
 
 ### Atualizado
@@ -54,11 +72,6 @@
 ### Validação
 O fluxo crítico foi considerado funcional pelo autor. As melhorias gerais foram implementadas e testadas, e a Fase 11 ficou registrada como pendência específica para correção posterior.
 
-### Documentação
-- [Histórico 14/09/2026 — Português](docs/11_historico_2026-09-14.md)
-- [Improvement History 2026-09-14 — English](docs/11_history_2026-09-14.md)
-- [Historial de mejoras 14/09/2026 — Español](docs/11_historial_2026-09-14.md)
-
 ## [0.2.0] — Capítulo 1 expandido: 16 fases + áudio + cabeçada
 
 ### Adicionado
@@ -93,10 +106,7 @@ A nova versão foi considerada funcional pelo autor após a implementação no B
 - Segunda fase jogável da campanha.
 - Cleovasdo como segundo cliente problemático.
 - Mecânica de perseguição do cliente.
-- Ambientes domésticos.
-- Obstáculos domésticos e progressão da nova fase.
-- Integração da Fase 2 com os níveis de dificuldade existentes.
-- Final cômico envolvendo a devolução da encomenda.
+- Ambientes domésticos e obstáculos.
 
 ## [0.1.3] — Sistema de dificuldade
 
@@ -109,7 +119,6 @@ A nova versão foi considerada funcional pelo autor após a implementação no B
 
 ### Adicionado
 - Ranking de líderes baseado no desempenho dos jogadores.
-- Estrutura preparada para futura evolução do ranking por fase e recordes.
 
 ## [0.1.1] — Controles mobile
 
