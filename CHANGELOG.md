@@ -1,5 +1,51 @@
 # Changelog
 
+## [0.3.0] — 15/09/2026 — Planejamento da Parte 2
+
+### Contexto
+- O jogo foi oficialmente publicado em **04/09/2026** como MVP.
+- O **Capítulo 1 possui 20 fases implementadas**.
+- O portal GitHub Pages atingiu **151 visitantes** em 14/09/2026.
+
+### Novo direcionamento
+- Iniciado o planejamento da **Parte 2 da campanha**, com objetivo futuro de chegar até a **Fase 40**.
+- A expansão será realizada em blocos de **5 fases**, com implementação, teste e correção antes do próximo bloco.
+- Primeiro bloco planejado: **Fases 21–25**.
+
+### Fases 21–25 planejadas
+- **21 — Centro da Cidade:** ambiente urbano, prédios, placas, plataformas e rotas.
+- **22 — O Metrô:** estação, plataformas móveis, portas e desafios de timing.
+- **23 — A Fábrica:** esteiras, máquinas, elevadores e mecanismos.
+- **24 — A Cidade Chuvosa:** chuva, reflexos, iluminação e superfícies diferenciadas.
+- **25 — Torre em Construção:** grande desafio vertical com andaimes, elevadores e combinação de mecânicas.
+
+### Evolução gráfica planejada
+- Maior riqueza visual nos cenários.
+- Profundidade por camadas.
+- Iluminação contextual.
+- Partículas ambientais moderadas.
+- Animações de cenário.
+- Plataformas com identidade visual própria.
+- Feedback visual mais claro para elementos interativos.
+- Evolução das animações de Shopi, Etvaldo e novos clientes.
+
+### Evolução de gameplay planejada
+- Novas mecânicas introduzidas gradualmente.
+- Maior uso de plataformas móveis, mecanismos, timing e exploração.
+- Cabeçada integrada de forma mais criativa aos novos ambientes.
+- Dificuldade baseada em complexidade e domínio das mecânicas, e não apenas em velocidade.
+- Preservação dos controles mobile atuais, que já estão funcionando bem.
+
+### Limitação do ciclo
+- O prompt de implementação das Fases 21–25 **não foi aplicado no Base44**, pois os créditos mensais disponíveis foram esgotados.
+- Portanto, as Fases 21–25 permanecem **planejadas e não implementadas**.
+
+### Pendência anterior
+- **Fase 11 — O Hospital:** existe um ponto em que o salto entre duas partes do cenário não é possível. A correção prevista continua sendo reduzir a distância ou inserir um ponto de apoio/plataforma intermediária.
+
+### Documentação
+- Criado `docs/12_parte_2_2026-09-15.md` com o registro completo do planejamento da Parte 2.
+
 ## [0.2.3] — 14/09/2026 — Marco de 151 visitantes
 
 ### Marco
@@ -145,6 +191,7 @@ A nova versão foi considerada funcional pelo autor após a implementação no B
 - Estatísticas de partidas.
 - Melhores tempos.
 - Melhorias adicionais de acessibilidade.
+- **Parte 2 — Fases 21–40.**
 - Capítulo 2.
 
 ---
